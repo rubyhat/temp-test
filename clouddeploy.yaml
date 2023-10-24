@@ -1,0 +1,10 @@
+steps:
+-   name: 'gcr.io/cloud-builders/gke-deploy'
+    args:
+        - run
+        - --cluster=atlas-k8s-n
+        - --location=europe-north1-b
+        - --version=$_VERSION
+        - --image=gcr.io/atlas-k8s/morda-frontend-$_ENV:$_VERSION
+        - --annotation=kubernetes.io/change-cause=$_VERSION
+        - --filename=k8s/$_ENV

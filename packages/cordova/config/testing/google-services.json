@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "748187038269",
+    "firebase_url": "https://atlas-morda-testing.firebaseio.com",
+    "project_id": "atlas-morda-testing",
+    "storage_bucket": "atlas-morda-testing.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:748187038269:android:76cae4a84e524219be7054",
+        "android_client_info": {
+          "package_name": "ru.atlasbus.app.testing"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "748187038269-a903m5t3bojoiriod1lv76p65k1nn93e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBhgze-KctaULOx1kWAxgUFQryXGI-ny7M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "748187038269-a903m5t3bojoiriod1lv76p65k1nn93e.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "748187038269-q8ne2hg1e3j23rt987pgnn18d2di0qh5.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "ru.atlasbus.app.testing"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

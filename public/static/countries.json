@@ -1,0 +1,1930 @@
+[
+    {
+        "country_code": "AD",
+        "id": 3041565,
+        "localized_name": {
+            "be": "\u0410\u043d\u0434\u043e\u0440\u0430",
+            "en": "Principality of Andorra",
+            "pl": "Andora",
+            "ru": "\u0410\u043d\u0434\u043e\u0440\u0440\u0430"
+        }
+    },
+    {
+        "country_code": "AE",
+        "id": 290557,
+        "localized_name": {
+            "be": "\u0410\u0431'\u044f\u0434\u043d\u0430\u043d\u044b\u044f \u0410\u0440\u0430\u0431\u0441\u043a\u0456\u044f \u042d\u043c\u0456\u0440\u0430\u0442\u044b",
+            "en": "United Arab Emirates",
+            "pl": "Zjednoczone Emiraty Arabskie",
+            "ru": "\u041e\u0431\u044a\u0435\u0434\u0438\u043d\u0435\u043d\u043d\u044b\u0435 \u0410\u0440\u0430\u0431\u0441\u043a\u0438\u0435 \u042d\u043c\u0438\u0440\u0430\u0442\u044b"
+        }
+    },
+    {
+        "country_code": "AF",
+        "id": 1149361,
+        "localized_name": {
+            "be": "\u0410\u0444\u0433\u0430\u043d\u0456\u0441\u0442\u0430\u043d",
+            "en": "Islamic Republic of Afghanistan",
+            "pl": "Afganistan",
+            "ru": "\u0410\u0444\u0433\u0430\u043d\u0438\u0441\u0442\u0430\u043d"
+        }
+    },
+    {
+        "country_code": "AG",
+        "id": 3576396,
+        "localized_name": {
+            "be": "\u0410\u043d\u0442\u044b\u0433\u0443\u0430 \u0456 \u0411\u0430\u0440\u0431\u0443\u0434\u0430",
+            "en": "Antigua and Barbuda",
+            "pl": "Antigua i Barbuda",
+            "ru": "\u0410\u043d\u0442\u0438\u0433\u0443\u0430 \u0438 \u0411\u0430\u0440\u0431\u0443\u0434\u0430"
+        }
+    },
+    {
+        "country_code": "AL",
+        "id": 783754,
+        "localized_name": {
+            "be": "\u0410\u043b\u0431\u0430\u043d\u0456\u044f",
+            "en": "Republic of Albania",
+            "pl": "Albania",
+            "ru": "\u0410\u043b\u0431\u0430\u043d\u0438\u044f"
+        }
+    },
+    {
+        "country_code": "AM",
+        "id": 174982,
+        "localized_name": {
+            "be": "\u0410\u0440\u043c\u0435\u043d\u0456\u044f",
+            "en": "Armenia",
+            "pl": "Armenia",
+            "ru": "\u0410\u0440\u043c\u0435\u043d\u0438\u044f"
+        }
+    },
+    {
+        "country_code": "AO",
+        "id": 3351879,
+        "localized_name": {
+            "be": "\u0410\u043d\u0433\u043e\u043b\u0430",
+            "en": "Republic of Angola",
+            "pl": "Angola",
+            "ru": "\u0410\u043d\u0433\u043e\u043b\u0430"
+        }
+    },
+    {
+        "country_code": "AR",
+        "id": 3865483,
+        "localized_name": {
+            "be": "\u0410\u0440\u0433\u0435\u043d\u0446\u0456\u043d\u0430",
+            "en": "Argentine Republic",
+            "pl": "Argentyna",
+            "ru": "\u0410\u0440\u0433\u0435\u043d\u0442\u0438\u043d\u0430"
+        }
+    },
+    {
+        "country_code": "AT",
+        "id": 2782113,
+        "localized_name": {
+            "be": "\u0410\u045e\u0441\u0442\u0440\u044b\u044f",
+            "en": "Republic of Austria",
+            "pl": "Austria",
+            "ru": "\u0410\u0432\u0441\u0442\u0440\u0438\u044f"
+        }
+    },
+    {
+        "country_code": "AU",
+        "id": 2077456,
+        "localized_name": {
+            "be": "\u0410\u045e\u0441\u0442\u0440\u0430\u043b\u0456\u044f",
+            "en": "Australia",
+            "pl": "Australia",
+            "ru": "\u0410\u0432\u0441\u0442\u0440\u0430\u043b\u0438\u044f"
+        }
+    },
+    {
+        "country_code": "AZ",
+        "id": 587116,
+        "localized_name": {
+            "be": "\u0410\u0437\u0435\u0440\u0431\u0430\u0439\u0434\u0436\u0430\u043d",
+            "en": "Republic of Azerbaijan",
+            "pl": "Azerbejd\u017can",
+            "ru": "\u0410\u0437\u0435\u0440\u0431\u0430\u0439\u0434\u0436\u0430\u043d"
+        }
+    },
+    {
+        "country_code": "BA",
+        "id": 3277605,
+        "localized_name": {
+            "be": "\u0411\u043e\u0441\u043d\u0456\u044f \u0456 \u0413\u0435\u0440\u0446\u0430\u0433\u0430\u0432\u0456\u043d\u0430",
+            "en": "Bosnia and Herzegovina",
+            "pl": "Bo\u015bnia i Hercegowina",
+            "ru": "\u0411\u043e\u0441\u043d\u0438\u044f \u0438 \u0413\u0435\u0440\u0446\u0435\u0433\u043e\u0432\u0438\u043d\u0430"
+        }
+    },
+    {
+        "country_code": "BB",
+        "id": 3374084,
+        "localized_name": {
+            "be": "\u0411\u0430\u0440\u0431\u0430\u0434\u0430\u0441",
+            "en": "Barbados",
+            "pl": "Barbados",
+            "ru": "\u0411\u0430\u0440\u0431\u0430\u0434\u043e\u0441"
+        }
+    },
+    {
+        "country_code": "BD",
+        "id": 1210997,
+        "localized_name": {
+            "be": "\u0411\u0430\u043d\u0433\u043b\u0430\u0434\u044d\u0448",
+            "en": "Bangladesh",
+            "pl": "Bangladesz",
+            "ru": "\u0411\u0430\u043d\u0433\u043b\u0430\u0434\u0435\u0448"
+        }
+    },
+    {
+        "country_code": "BE",
+        "id": 2802361,
+        "localized_name": {
+            "be": "\u0411\u0435\u043b\u044c\u0433\u0456\u044f",
+            "en": "Kingdom of Belgium",
+            "pl": "Belgia",
+            "ru": "\u0411\u0435\u043b\u044c\u0433\u0438\u044f"
+        }
+    },
+    {
+        "country_code": "BF",
+        "id": 2361809,
+        "localized_name": {
+            "be": "\u0411\u0443\u0440\u043a\u0456\u043d\u0430-\u0424\u0430\u0441\u043e",
+            "en": "Burkina Faso",
+            "pl": "Burkina Faso",
+            "ru": "\u0411\u0443\u0440\u043a\u0438\u043d\u0430 \u0424\u0430\u0441\u043e"
+        }
+    },
+    {
+        "country_code": "BG",
+        "id": 732800,
+        "localized_name": {
+            "be": "\u0411\u0430\u043b\u0433\u0430\u0440\u044b\u044f",
+            "en": "Republic of Bulgaria",
+            "pl": "Bu\u0142garia",
+            "ru": "\u0411\u043e\u043b\u0433\u0430\u0440\u0438\u044f"
+        }
+    },
+    {
+        "country_code": "BH",
+        "id": 290291,
+        "localized_name": {
+            "be": "\u0411\u0430\u0445\u0440\u044d\u0439\u043d",
+            "en": "Kingdom of Bahrain",
+            "pl": "Bahrajn",
+            "ru": "\u0411\u0430\u0445\u0440\u0435\u0439\u043d"
+        }
+    },
+    {
+        "country_code": "BI",
+        "id": 433561,
+        "localized_name": {
+            "be": "\u0411\u0443\u0440\u0443\u043d\u0434\u0437\u0456",
+            "en": "Republic of Burundi",
+            "pl": "Burundi",
+            "ru": "\u0411\u0443\u0440\u0443\u043d\u0434\u0438"
+        }
+    },
+    {
+        "country_code": "BJ",
+        "id": 2395170,
+        "localized_name": {
+            "be": "\u0411\u0435\u043d\u0456\u043d",
+            "en": "Republic of Benin",
+            "pl": "Benin",
+            "ru": "\u0411\u0435\u043d\u0438\u043d"
+        }
+    },
+    {
+        "country_code": "BN",
+        "id": 1820814,
+        "localized_name": {
+            "be": "\u0411\u0440\u0443\u043d\u0435\u0439-\u0414\u0430\u0440\u0443\u0441\u0430\u043b\u0430\u043c",
+            "en": "Brunei Darussalam",
+            "pl": "Brunei Darussalam",
+            "ru": "\u0411\u0440\u0443\u043d\u0435\u0439 \u0414\u0430\u0440\u0443\u0441\u0441\u0430\u043b\u0430\u043c"
+        }
+    },
+    {
+        "country_code": "BO",
+        "id": 3923057,
+        "localized_name": {
+            "be": "\u0411\u0430\u043b\u0456\u0432\u0456\u044f",
+            "en": "Bolivia (Plurinational State of)",
+            "pl": "Boliwia",
+            "ru": "\u0411\u043e\u043b\u0438\u0432\u0438\u044f"
+        }
+    },
+    {
+        "country_code": "BR",
+        "id": 3469034,
+        "localized_name": {
+            "be": "\u0411\u0440\u0430\u0437\u0456\u043b\u0456\u044f",
+            "en": "Brazil",
+            "pl": "Brazylia",
+            "ru": "\u0411\u0440\u0430\u0437\u0438\u043b\u0438\u044f"
+        }
+    },
+    {
+        "country_code": "BS",
+        "id": 3572887,
+        "localized_name": {
+            "be": "\u0411\u0430\u0433\u0430\u043c\u0441\u043a\u0456\u044f \u0430\u0441\u0442\u0440\u0430\u0432\u044b",
+            "en": "The Bahamas",
+            "pl": "Bahamy",
+            "ru": "\u0411\u0430\u0433\u0430\u043c\u044b"
+        }
+    },
+    {
+        "country_code": "BT",
+        "id": 1252634,
+        "localized_name": {
+            "be": "\u0411\u0443\u0442\u0430\u043d",
+            "en": "Bhutan",
+            "pl": "Bhutan",
+            "ru": "\u0411\u0443\u0442\u0430\u043d"
+        }
+    },
+    {
+        "country_code": "BW",
+        "id": 933860,
+        "localized_name": {
+            "be": "\u0411\u0430\u0442\u0441\u0432\u0430\u043d\u0430",
+            "en": "Botswana",
+            "pl": "Botswana",
+            "ru": "\u0411\u043e\u0442\u0441\u0432\u0430\u043d\u0430"
+        }
+    },
+    {
+        "country_code": "BY",
+        "id": 630336,
+        "localized_name": {
+            "be": "Respublika Byelarus\u2019",
+            "en": "Republic of Belarus",
+            "pl": "Bia\u0142oru\u015b",
+            "ru": "\u0411\u0435\u043b\u0430\u0440\u0443\u0441\u044c"
+        }
+    },
+    {
+        "country_code": "BZ",
+        "id": 3582678,
+        "localized_name": {
+            "be": "\u0411\u0435\u043b\u0456\u0437",
+            "en": "Belize",
+            "pl": "Belize",
+            "ru": "\u0411\u0435\u043b\u0438\u0437"
+        }
+    },
+    {
+        "country_code": "CA",
+        "id": 6251999,
+        "localized_name": {
+            "be": "\u041a\u0430\u043d\u0430\u0434\u0430",
+            "en": "Canada",
+            "pl": "Kanada",
+            "ru": "\u041a\u0430\u043d\u0430\u0434\u0430"
+        }
+    },
+    {
+        "country_code": "CD",
+        "id": 203312,
+        "localized_name": {
+            "be": "\u041a\u043e\u043d\u0433\u0430, \u0414\u044d\u043c\u0430\u043a\u0440\u0430\u0442\u044b\u0447\u043d\u0430\u044f \u0420\u044d\u0441\u043f\u0443\u0431\u043b\u0456\u043a\u0430",
+            "en": "DR Congo",
+            "pl": "Kongo, Republika Demokratyczna",
+            "ru": "\u0417\u0430\u0438\u0440"
+        }
+    },
+    {
+        "country_code": "CF",
+        "id": 239880,
+        "localized_name": {
+            "be": "\u0426\u044d\u043d\u0442\u0440\u0430\u043b\u044c\u043d\u0430-\u0410\u0444\u0440\u044b\u043a\u0430\u043d\u0441\u043a\u0430\u044f \u0420\u044d\u0441\u043f\u0443\u0431\u043b\u0456\u043a\u0430",
+            "en": "Central African Republic",
+            "pl": "Republika \u015arodkowoafryka\u0144ska",
+            "ru": "\u0426\u0410\u0420"
+        }
+    },
+    {
+        "country_code": "CG",
+        "id": 2260494,
+        "localized_name": {
+            "be": "\u041a\u043e\u043d\u0433\u0430",
+            "en": "Congo Republic",
+            "pl": "Republika Konga",
+            "ru": "\u0420\u0435\u0441\u043f\u0443\u0431\u043b\u0438\u043a\u0430 \u041a\u043e\u043d\u0433\u043e"
+        }
+    },
+    {
+        "country_code": "CH",
+        "id": 2658434,
+        "localized_name": {
+            "be": "\u0428\u0432\u0435\u0439\u0446\u0430\u0440\u044b\u044f",
+            "en": "Switzerland",
+            "pl": "Szwajcaria",
+            "ru": "\u0428\u0432\u0435\u0439\u0446\u0430\u0440\u0438\u044f"
+        }
+    },
+    {
+        "country_code": "CI",
+        "id": 2287781,
+        "localized_name": {
+            "en": "Ivory Coast",
+            "pl": "Wybrze\u017ce Ko\u015bci S\u0142oniowej",
+            "ru": "\u041a\u043e\u0442-\u0434'\u0418\u0432\u0443\u0430\u0440"
+        }
+    },
+    {
+        "country_code": "CL",
+        "id": 3895114,
+        "localized_name": {
+            "be": "\u0427\u0456\u043b\u0456",
+            "en": "Republic of Chile",
+            "pl": "Chile",
+            "ru": "\u0427\u0438\u043b\u0438"
+        }
+    },
+    {
+        "country_code": "CM",
+        "id": 2233387,
+        "localized_name": {
+            "be": "\u041a\u0430\u043c\u0435\u0440\u0443\u043d",
+            "en": "Republic of Cameroon",
+            "pl": "Kamerun",
+            "ru": "\u041a\u0430\u043c\u0435\u0440\u0443\u043d"
+        }
+    },
+    {
+        "country_code": "CN",
+        "id": 1814991,
+        "localized_name": {
+            "be": "\u041a\u0456\u0442\u0430\u0439",
+            "en": "China",
+            "pl": "Chi\u0144ska Republika Ludowa",
+            "ru": "\u041a\u0438\u0442\u0430\u0439"
+        }
+    },
+    {
+        "country_code": "CO",
+        "id": 3686110,
+        "localized_name": {
+            "be": "\u041a\u0430\u043b\u0443\u043c\u0431\u0456\u044f",
+            "en": "Republic of Colombia",
+            "pl": "Kolumbia",
+            "ru": "\u041a\u043e\u043b\u0443\u043c\u0431\u0438\u044f"
+        }
+    },
+    {
+        "country_code": "CR",
+        "id": 3624060,
+        "localized_name": {
+            "be": "\u041a\u043e\u0441\u0442\u0430-\u0420\u044b\u043a\u0430",
+            "en": "Republic of Costa Rica",
+            "pl": "Kostaryka",
+            "ru": "\u041a\u043e\u0441\u0442\u0430-\u0420\u0438\u043a\u0430"
+        }
+    },
+    {
+        "country_code": "CU",
+        "id": 3562981,
+        "localized_name": {
+            "be": "\u041a\u0443\u0431\u0430",
+            "en": "Republic of Cuba",
+            "pl": "Kuba",
+            "ru": "\u041a\u0443\u0431\u0430"
+        }
+    },
+    {
+        "country_code": "CV",
+        "id": 3374766,
+        "localized_name": {
+            "be": "\u041a\u0430\u0431\u0430-\u0412\u0435\u0440\u0434\u044d",
+            "en": "Cabo Verde",
+            "pl": "Republika Zielonego Przyl\u0105dka",
+            "ru": "\u041e\u0441\u0442\u0440\u043e\u0432\u0430 \u0417\u0435\u043b\u0435\u043d\u043e\u0433\u043e \u041c\u044b\u0441\u0430"
+        }
+    },
+    {
+        "country_code": "CY",
+        "id": 146669,
+        "localized_name": {
+            "be": "\u041a\u0456\u043f\u0440",
+            "en": "Cyprus",
+            "pl": "Cypr",
+            "ru": "\u041a\u0438\u043f\u0440"
+        }
+    },
+    {
+        "country_code": "CZ",
+        "id": 3077311,
+        "localized_name": {
+            "be": "\u0427\u044d\u0445\u0456\u044f",
+            "en": "Czech Republic",
+            "pl": "Czechy",
+            "ru": "\u0427\u0435\u0448\u0441\u043a\u0430\u044f \u0420\u0435\u0441\u043f\u0443\u0431\u043b\u0438\u043a\u0430"
+        }
+    },
+    {
+        "country_code": "DE",
+        "id": 2921044,
+        "localized_name": {
+            "be": "\u041d\u044f\u043c\u0435\u0447\u0447\u044b\u043d\u0430",
+            "en": "Germany",
+            "pl": "Niemcy",
+            "ru": "\u0413\u0435\u0440\u043c\u0430\u043d\u0438\u044f"
+        }
+    },
+    {
+        "country_code": "DJ",
+        "id": 223816,
+        "localized_name": {
+            "be": "\u0414\u0436\u044b\u0431\u0443\u0446\u0456",
+            "en": "Republic of Djibouti",
+            "pl": "D\u017cibuti",
+            "ru": "\u0414\u0436\u0438\u0431\u0443\u0442\u0438"
+        }
+    },
+    {
+        "country_code": "DK",
+        "id": 2623032,
+        "localized_name": {
+            "be": "\u0414\u0430\u043d\u0456\u044f",
+            "en": "Kingdom of Denmark",
+            "pl": "Dania",
+            "ru": "\u0414\u0430\u043d\u0438\u044f"
+        }
+    },
+    {
+        "country_code": "DM",
+        "id": 3575830,
+        "localized_name": {
+            "be": "\u0414\u0430\u043c\u0456\u043d\u0456\u043a\u0430",
+            "en": "Dominica",
+            "pl": "Dominika",
+            "ru": "\u041e\u0441\u0442\u0440\u043e\u0432 \u0414\u043e\u043c\u0438\u043d\u0438\u043a\u0430"
+        }
+    },
+    {
+        "country_code": "DO",
+        "id": 3508796,
+        "localized_name": {
+            "be": "\u0414\u0430\u043c\u0456\u043d\u0456\u043a\u0430\u043d\u0441\u043a\u0430\u044f \u0420\u044d\u0441\u043f\u0443\u0431\u043b\u0456\u043a\u0430",
+            "en": "Dominican Republic",
+            "pl": "Republika Dominikany",
+            "ru": "\u0414\u043e\u043c\u0438\u043d\u0438\u043a\u0430\u043d\u0441\u043a\u0430\u044f \u0420\u0435\u0441\u043f\u0443\u0431\u043b\u0438\u043a\u0430"
+        }
+    },
+    {
+        "country_code": "DZ",
+        "id": 2589581,
+        "localized_name": {
+            "be": "\u0410\u043b\u0436\u044b\u0440",
+            "en": "People\u2019s Democratic Republic of Algeria",
+            "pl": "Algieria",
+            "ru": "\u0410\u043b\u0436\u0438\u0440"
+        }
+    },
+    {
+        "country_code": "EC",
+        "id": 3658394,
+        "localized_name": {
+            "be": "\u042d\u043a\u0432\u0430\u0434\u043e\u0440",
+            "en": "Republic of Ecuador",
+            "pl": "Ekwador",
+            "ru": "\u042d\u043a\u0432\u0430\u0434\u043e\u0440"
+        }
+    },
+    {
+        "country_code": "EE",
+        "id": 453733,
+        "localized_name": {
+            "be": "\u042d\u0441\u0442\u043e\u043d\u0456\u044f",
+            "en": "Republic of Estonia",
+            "pl": "Estonia",
+            "ru": "\u042d\u0441\u0442\u043e\u043d\u0438\u044f"
+        }
+    },
+    {
+        "country_code": "EG",
+        "id": 357994,
+        "localized_name": {
+            "be": "\u0415\u0433\u0456\u043f\u0435\u0442",
+            "en": "Egypt",
+            "pl": "Egipt",
+            "ru": "\u0415\u0433\u0438\u043f\u0435\u0442"
+        }
+    },
+    {
+        "country_code": "ER",
+        "id": 338010,
+        "localized_name": {
+            "be": "\u042d\u0440\u044b\u0442\u0440\u044d\u044f",
+            "en": "State of Eritrea",
+            "pl": "Erytrea",
+            "ru": "\u042d\u0440\u0438\u0442\u0440\u0435\u044f"
+        }
+    },
+    {
+        "country_code": "ES",
+        "id": 2510769,
+        "localized_name": {
+            "be": "\u0406\u0441\u043f\u0430\u043d\u0456\u044f",
+            "en": "Spain",
+            "pl": "Hiszpania",
+            "ru": "\u0418\u0441\u043f\u0430\u043d\u0438\u044f"
+        }
+    },
+    {
+        "country_code": "ET",
+        "id": 337996,
+        "localized_name": {
+            "be": "\u042d\u0444\u0456\u043e\u043f\u0456\u044f",
+            "en": "Federal Democratic Republic of Ethiopia",
+            "pl": "Etiopia",
+            "ru": "\u042d\u0444\u0438\u043e\u043f\u0438\u044f"
+        }
+    },
+    {
+        "country_code": "FI",
+        "id": 660013,
+        "localized_name": {
+            "be": "\u0424\u0456\u043d\u043b\u044f\u043d\u0434\u044b\u044f",
+            "en": "Finland",
+            "pl": "Finlandia",
+            "ru": "\u0424\u0438\u043d\u043b\u044f\u043d\u0434\u0438\u044f"
+        }
+    },
+    {
+        "country_code": "FJ",
+        "id": 2205218,
+        "localized_name": {
+            "be": "\u0424\u0456\u0434\u0436\u044b",
+            "en": "Fiji",
+            "pl": "Fid\u017ci",
+            "ru": "\u0424\u0438\u0434\u0436\u0438"
+        }
+    },
+    {
+        "country_code": "FR",
+        "id": 3017382,
+        "localized_name": {
+            "be": "\u0424\u0440\u0430\u043d\u0446\u044b\u044f",
+            "en": "France",
+            "pl": "Francja",
+            "ru": "\u0424\u0440\u0430\u043d\u0446\u0438\u044f"
+        }
+    },
+    {
+        "country_code": "GA",
+        "id": 2400553,
+        "localized_name": {
+            "be": "\u0413\u0430\u0431\u043e\u043d",
+            "en": "Gabonese Republic",
+            "pl": "Gabon",
+            "ru": "\u0413\u0430\u0431\u043e\u043d"
+        }
+    },
+    {
+        "country_code": "GB",
+        "id": 2635167,
+        "localized_name": {
+            "be": "\u0412\u044f\u043b\u0456\u043a\u0430\u044f \u0411\u0440\u044b\u0442\u0430\u043d\u0456\u044f",
+            "en": "United Kingdom",
+            "pl": "Zjednoczone Kr\u00f3lestwo Wielkiej Brytanii",
+            "ru": "\u0421\u043e\u0435\u0434\u0438\u043d\u0435\u043d\u043d\u043e\u0435 \u041a\u043e\u0440\u043e\u043b\u0435\u0432\u0441\u0442\u0432\u043e"
+        }
+    },
+    {
+        "country_code": "GD",
+        "id": 3580239,
+        "localized_name": {
+            "be": "\u0413\u0440\u044d\u043d\u0430\u0434\u0430",
+            "en": "Grenada",
+            "pl": "Grenada",
+            "ru": "\u0413\u0440\u0435\u043d\u0430\u0434\u0430"
+        }
+    },
+    {
+        "country_code": "GE",
+        "id": 614540,
+        "localized_name": {
+            "be": "\u0413\u0440\u0443\u0437\u0456\u044f",
+            "en": "Georgia",
+            "pl": "Gruzja",
+            "ru": "\u0413\u0440\u0443\u0437\u0438\u044f"
+        }
+    },
+    {
+        "country_code": "GH",
+        "id": 2300660,
+        "localized_name": {
+            "be": "\u0413\u0430\u043d\u0430",
+            "en": "Ghana",
+            "pl": "Ghana",
+            "ru": "\u0413\u0430\u043d\u0430"
+        }
+    },
+    {
+        "country_code": "GM",
+        "id": 2413451,
+        "localized_name": {
+            "be": "\u0413\u0430\u043c\u0431\u0456\u044f",
+            "en": "The Gambia",
+            "pl": "Gambia",
+            "ru": "\u0413\u0430\u043c\u0431\u0438\u044f"
+        }
+    },
+    {
+        "country_code": "GN",
+        "id": 2420477,
+        "localized_name": {
+            "be": "\u0413\u0432\u0456\u043d\u0435\u044f",
+            "en": "Republic of Guinea",
+            "pl": "Gwinea",
+            "ru": "\u0413\u0432\u0438\u043d\u0435\u044f"
+        }
+    },
+    {
+        "country_code": "GQ",
+        "id": 2309096,
+        "localized_name": {
+            "be": "\u042d\u043a\u0432\u0430\u0442\u0430\u0440\u044b\u044f\u043b\u044c\u043d\u0430\u044f \u0413\u0432\u0456\u043d\u0435\u044f",
+            "en": "Equatorial Guinea",
+            "pl": "Gwinea R\u00f3wnikowa",
+            "ru": "\u042d\u043a\u0432\u0430\u0442\u043e\u0440\u0438\u0430\u043b\u044c\u043d\u0430\u044f \u0413\u0432\u0438\u043d\u0435\u044f"
+        }
+    },
+    {
+        "country_code": "GR",
+        "id": 390903,
+        "localized_name": {
+            "be": "\u0413\u0440\u044d\u0446\u044b\u044f",
+            "en": "Greece",
+            "pl": "Grecja",
+            "ru": "\u0413\u0440\u0435\u0446\u0438\u044f"
+        }
+    },
+    {
+        "country_code": "GT",
+        "id": 3595528,
+        "localized_name": {
+            "be": "\u0413\u0432\u0430\u0442\u044d\u043c\u0430\u043b\u0430",
+            "en": "Republic of Guatemala",
+            "pl": "Gwatemala",
+            "ru": "\u0413\u0432\u0430\u0442\u0435\u043c\u0430\u043b\u0430"
+        }
+    },
+    {
+        "country_code": "GW",
+        "id": 2372248,
+        "localized_name": {
+            "be": "\u0413\u0432\u0456\u043d\u0435\u044f-\u0411\u0456\u0441\u0430\u045e",
+            "en": "Republic of Guinea-Bissau",
+            "pl": "Gwinea Bissau",
+            "ru": "\u0413\u0432\u0438\u043d\u0435\u044f-\u0411\u0438\u0441\u0441\u0430\u0443"
+        }
+    },
+    {
+        "country_code": "GY",
+        "id": 3378535,
+        "localized_name": {
+            "be": "\u0413\u0430\u044f\u043d\u0430",
+            "en": "Guyana",
+            "pl": "Gujana",
+            "ru": "\u0413\u0430\u0439\u0430\u043d\u0430"
+        }
+    },
+    {
+        "country_code": "HN",
+        "id": 3608932,
+        "localized_name": {
+            "be": "\u0413\u0430\u043d\u0434\u0443\u0440\u0430\u0441",
+            "en": "Republic of Honduras",
+            "pl": "Honduras",
+            "ru": "\u0413\u043e\u043d\u0434\u0443\u0440\u0430\u0441"
+        }
+    },
+    {
+        "country_code": "HR",
+        "id": 3202326,
+        "localized_name": {
+            "be": "\u0425\u0430\u0440\u0432\u0430\u0442\u044b\u044f",
+            "en": "Republic of Croatia",
+            "pl": "Chorwacja",
+            "ru": "\u0425\u043e\u0440\u0432\u0430\u0442\u0438\u044f"
+        }
+    },
+    {
+        "country_code": "HT",
+        "id": 3723988,
+        "localized_name": {
+            "be": "\u0413\u0430\u0456\u0446\u0456",
+            "en": "Republic of Haiti",
+            "pl": "Haiti",
+            "ru": "\u0413\u0430\u0438\u0442\u0438"
+        }
+    },
+    {
+        "country_code": "HU",
+        "id": 719819,
+        "localized_name": {
+            "be": "\u0412\u0435\u043d\u0433\u0440\u044b\u044f",
+            "en": "Hungary",
+            "pl": "W\u0119gry",
+            "ru": "\u0412\u0435\u043d\u0433\u0440\u0438\u044f"
+        }
+    },
+    {
+        "country_code": "ID",
+        "id": 1643084,
+        "localized_name": {
+            "be": "\u0406\u043d\u0434\u0430\u043d\u0435\u0437\u0456\u044f",
+            "en": "Republic of Indonesia",
+            "pl": "Indonezja",
+            "ru": "\u0418\u043d\u0434\u043e\u043d\u0435\u0437\u0438\u044f"
+        }
+    },
+    {
+        "country_code": "IE",
+        "id": 2963597,
+        "localized_name": {
+            "be": "\u0406\u0440\u043b\u0430\u043d\u0434\u044b\u044f",
+            "en": "Republic of Ireland",
+            "pl": "Irlandia",
+            "ru": "\u0418\u0440\u043b\u0430\u043d\u0434\u0438\u044f"
+        }
+    },
+    {
+        "country_code": "IL",
+        "id": 294640,
+        "localized_name": {
+            "be": "\u0406\u0437\u0440\u0430\u0456\u043b\u044c",
+            "en": "State of Israel",
+            "pl": "Izrael",
+            "ru": "\u0418\u0437\u0440\u0430\u0438\u043b\u044c"
+        }
+    },
+    {
+        "country_code": "IN",
+        "id": 1269750,
+        "localized_name": {
+            "be": "\u0406\u043d\u0434\u044b\u044f",
+            "en": "India",
+            "pl": "Indie",
+            "ru": "\u0418\u043d\u0434\u0438\u044f"
+        }
+    },
+    {
+        "country_code": "IQ",
+        "id": 99237,
+        "localized_name": {
+            "be": "\u0406\u0440\u0430\u043a",
+            "en": "Republic of Iraq",
+            "pl": "Irak",
+            "ru": "\u0418\u0440\u0430\u043a"
+        }
+    },
+    {
+        "country_code": "IR",
+        "id": 130758,
+        "localized_name": {
+            "be": "\u0406\u0440\u0430\u043d, \u0406\u0441\u043b\u0430\u043c\u0441\u043a\u0430\u044f \u0420\u044d\u0441\u043f\u0443\u0431\u043b\u0456\u043a\u0430",
+            "en": "Iran",
+            "pl": "Iran",
+            "ru": "\u0418\u0440\u0430\u043d"
+        }
+    },
+    {
+        "country_code": "IS",
+        "id": 2629691,
+        "localized_name": {
+            "be": "\u0406\u0441\u043b\u0430\u043d\u0434\u044b\u044f",
+            "en": "Republic of Iceland",
+            "pl": "Islandia",
+            "ru": "\u0418\u0441\u043b\u0430\u043d\u0434\u0438\u044f"
+        }
+    },
+    {
+        "country_code": "IT",
+        "id": 3175395,
+        "localized_name": {
+            "be": "\u0406\u0442\u0430\u043b\u0456\u044f",
+            "en": "Italy",
+            "pl": "W\u0142ochy",
+            "ru": "\u0418\u0442\u0430\u043b\u0438\u044f"
+        }
+    },
+    {
+        "country_code": "JM",
+        "id": 3489940,
+        "localized_name": {
+            "be": "\u042f\u043c\u0430\u0439\u043a\u0430",
+            "en": "Jamaica",
+            "pl": "Jamajka",
+            "ru": "\u042f\u043c\u0430\u0439\u043a\u0430"
+        }
+    },
+    {
+        "country_code": "JO",
+        "id": 248816,
+        "localized_name": {
+            "be": "\u0406\u0430\u0440\u0434\u0430\u043d\u0456\u044f",
+            "en": "Hashemite Kingdom of Jordan",
+            "pl": "Jordania",
+            "ru": "\u0418\u043e\u0440\u0434\u0430\u043d\u0438\u044f"
+        }
+    },
+    {
+        "country_code": "JP",
+        "id": 1861060,
+        "localized_name": {
+            "be": "\u042f\u043f\u043e\u043d\u0456\u044f",
+            "en": "Japan",
+            "pl": "Japonia",
+            "ru": "\u042f\u043f\u043e\u043d\u0438\u044f"
+        }
+    },
+    {
+        "country_code": "KE",
+        "id": 192950,
+        "localized_name": {
+            "be": "\u041a\u0435\u043d\u0456\u044f",
+            "en": "Kenya",
+            "pl": "Kenia",
+            "ru": "\u041a\u0435\u043d\u0438\u044f"
+        }
+    },
+    {
+        "country_code": "KG",
+        "id": 1527747,
+        "localized_name": {
+            "be": "\u041a\u044b\u0440\u0433\u044b\u0437\u0441\u0442\u0430\u043d",
+            "en": "Kyrgyzstan",
+            "pl": "Kirgistan",
+            "ru": "\u041a\u044b\u0440\u0433\u044b\u0437\u0441\u0442\u0430\u043d"
+        }
+    },
+    {
+        "country_code": "KH",
+        "id": 1831722,
+        "localized_name": {
+            "be": "\u041a\u0430\u043c\u0431\u043e\u0434\u0436\u0430",
+            "en": "Cambodia",
+            "pl": "Kambod\u017ca",
+            "ru": "\u041a\u0430\u043c\u0431\u043e\u0434\u0436\u0430"
+        }
+    },
+    {
+        "country_code": "KI",
+        "id": 4030945,
+        "localized_name": {
+            "be": "\u041a\u0456\u0440\u044b\u0431\u0430\u0446\u0456",
+            "en": "Kiribati",
+            "pl": "Kiribati",
+            "ru": "\u041a\u0438\u0440\u0438\u0431\u0430\u0442\u0438"
+        }
+    },
+    {
+        "country_code": "KM",
+        "id": 921929,
+        "localized_name": {
+            "be": "\u041a\u0430\u043c\u043e\u0440\u0441\u043a\u0456\u044f \u0410\u0441\u0442\u0440\u0430\u0432\u044b",
+            "en": "Federal Islamic Republic of the Comoros",
+            "pl": "Komory",
+            "ru": "\u041a\u043e\u043c\u043e\u0440\u0441\u043a\u0438\u0435 \u043e-\u0432\u0430"
+        }
+    },
+    {
+        "country_code": "KN",
+        "id": 3575174,
+        "localized_name": {
+            "be": "\u0421\u044d\u043d\u0442-\u041a\u0456\u0442\u0441 \u0456 \u041d\u044d\u0432\u0456\u0441",
+            "en": "St Kitts and Nevis",
+            "pl": "Saint Kitts i Nevis",
+            "ru": "\u0421\u0435\u043d\u0442-\u041a\u0438\u0442\u0442\u0441 \u0438 \u041d\u0435\u0432\u0438\u0441"
+        }
+    },
+    {
+        "country_code": "KP",
+        "id": 1873107,
+        "localized_name": {
+            "be": "\u041f\u0430\u045e\u043d\u043e\u0447\u043d\u0430\u044f \u041a\u0430\u0440\u044d\u044f",
+            "en": "North Korea",
+            "pl": "Korea\u0144ska Republika Ludowo-Demokratyczna",
+            "ru": "\u0421\u0435\u0432\u0435\u0440\u043d\u0430\u044f \u041a\u043e\u0440\u0435\u044f"
+        }
+    },
+    {
+        "country_code": "KR",
+        "id": 1835841,
+        "localized_name": {
+            "be": "\u041f\u0430\u045e\u0434\u043d\u0451\u0432\u0430\u044f \u041a\u0430\u0440\u044d\u044f",
+            "en": "Republic of Korea",
+            "pl": "Republika Korei",
+            "ru": "\u0420\u0435\u0441\u043f\u0443\u0431\u043b\u0438\u043a\u0430 \u041a\u043e\u0440\u0435\u044f"
+        }
+    },
+    {
+        "country_code": "KW",
+        "id": 285570,
+        "localized_name": {
+            "be": "\u041a\u0443\u0432\u0435\u0439\u0442",
+            "en": "State of Kuwait",
+            "pl": "Kuwejt",
+            "ru": "\u041a\u0443\u0432\u0435\u0439\u0442"
+        }
+    },
+    {
+        "country_code": "KZ",
+        "id": 1522867,
+        "localized_name": {
+            "be": "\u041a\u0430\u0437\u0430\u0445\u0441\u0442\u0430\u043d",
+            "en": "Republic of Kazakhstan",
+            "pl": "Kazachstan",
+            "ru": "\u041a\u0430\u0437\u0430\u0445\u0441\u0442\u0430\u043d"
+        }
+    },
+    {
+        "country_code": "LA",
+        "id": 1655842,
+        "localized_name": {
+            "be": "\u041b\u0430\u043e\u0441\u043a\u0430\u044f \u041d\u0430\u0440\u043e\u0434\u043d\u0430-\u0414\u044d\u043c\u0430\u043a\u0440\u0430\u0442\u044b\u0447\u043d\u0430\u044f \u0420\u044d\u0441\u043f\u0443\u0431\u043b\u0456\u043a\u0430",
+            "en": "Laos",
+            "pl": "Laos (Demokratyczna Republika Ludowa)",
+            "ru": "\u041b\u0430\u043e\u0441"
+        }
+    },
+    {
+        "country_code": "LB",
+        "id": 272103,
+        "localized_name": {
+            "be": "\u041b\u0456\u0432\u0430\u043d",
+            "en": "Lebanon",
+            "pl": "Liban",
+            "ru": "\u041b\u0438\u0432\u0430\u043d"
+        }
+    },
+    {
+        "country_code": "LC",
+        "id": 3576468,
+        "localized_name": {
+            "be": "\u0421\u044d\u043d\u0442-\u041b\u044e\u0441\u0456\u044f",
+            "en": "Saint Lucia",
+            "pl": "Saint Lucia",
+            "ru": "\u0421\u0435\u043d\u0442-\u041b\u044e\u0441\u0438\u044f"
+        }
+    },
+    {
+        "country_code": "LI",
+        "id": 3042058,
+        "localized_name": {
+            "be": "\u041b\u0456\u0445\u0442\u044d\u043d\u0448\u0442\u044d\u0439\u043d",
+            "en": "Principality of Liechtenstein",
+            "pl": "Lichtenstein",
+            "ru": "\u041b\u0438\u0445\u0442\u0435\u043d\u0448\u0442\u0435\u0439\u043d"
+        }
+    },
+    {
+        "country_code": "LK",
+        "id": 1227603,
+        "localized_name": {
+            "be": "\u0428\u0440\u044b-\u041b\u0430\u043d\u043a\u0430",
+            "en": "Sri Lanka",
+            "pl": "Sri Lanka",
+            "ru": "\u0428\u0440\u0438-\u041b\u0430\u043d\u043a\u0430"
+        }
+    },
+    {
+        "country_code": "LR",
+        "id": 2275384,
+        "localized_name": {
+            "be": "\u041b\u0456\u0431\u0435\u0440\u044b\u044f",
+            "en": "Liberia",
+            "pl": "Liberia",
+            "ru": "\u041b\u0438\u0431\u0435\u0440\u0438\u044f"
+        }
+    },
+    {
+        "country_code": "LS",
+        "id": 932692,
+        "localized_name": {
+            "be": "\u041b\u0435\u0441\u043e\u0442\u0430",
+            "en": "Lesotho",
+            "pl": "Lesoto",
+            "ru": "\u041b\u0435\u0441\u043e\u0442\u043e"
+        }
+    },
+    {
+        "country_code": "LT",
+        "id": 597427,
+        "localized_name": {
+            "be": "\u041b\u0456\u0442\u0432\u0430",
+            "en": "Republic of Lithuania",
+            "pl": "Litwa",
+            "ru": "\u041b\u0438\u0442\u0432\u0430"
+        }
+    },
+    {
+        "country_code": "LU",
+        "id": 2960313,
+        "localized_name": {
+            "be": "\u041b\u044e\u043a\u0441\u0435\u043c\u0431\u0443\u0440\u0433",
+            "en": "Grand Duchy of Luxembourg",
+            "pl": "Luksemburg",
+            "ru": "\u041b\u044e\u043a\u0441\u0435\u043c\u0431\u0443\u0440\u0433"
+        }
+    },
+    {
+        "country_code": "LV",
+        "id": 458258,
+        "localized_name": {
+            "be": "\u041b\u0430\u0442\u0432\u0456\u044f",
+            "en": "Latvia",
+            "pl": "\u0141otwa",
+            "ru": "\u041b\u0430\u0442\u0432\u0438\u044f"
+        }
+    },
+    {
+        "country_code": "LY",
+        "id": 2215636,
+        "localized_name": {
+            "be": "\u041b\u0456\u0432\u0456\u0439\u0441\u043a\u0430\u044f \u0410\u0440\u0430\u0431\u0441\u043a\u0430\u044f \u0414\u0436\u0430\u043c\u0430\u0445\u0456\u0440\u044b\u044f",
+            "en": "Libya",
+            "pl": "Libijska",
+            "ru": "\u041b\u0438\u0432\u0438\u044f"
+        }
+    },
+    {
+        "country_code": "MA",
+        "id": 2542007,
+        "localized_name": {
+            "be": "\u041c\u0430\u0440\u043e\u043a\u0430",
+            "en": "Morocco",
+            "pl": "Maroko",
+            "ru": "\u041c\u0430\u0440\u043e\u043a\u043a\u043e"
+        }
+    },
+    {
+        "country_code": "MC",
+        "id": 2993457,
+        "localized_name": {
+            "be": "\u041c\u0430\u043d\u0430\u043a\u0430",
+            "en": "Monaco",
+            "pl": "Monako",
+            "ru": "\u041c\u043e\u043d\u0430\u043a\u043e"
+        }
+    },
+    {
+        "country_code": "MD",
+        "id": 617790,
+        "localized_name": {
+            "be": "\u041c\u0430\u043b\u0434\u043e\u0432\u0430, \u0420\u044d\u0441\u043f\u0443\u0431\u043b\u0456\u043a\u0430",
+            "en": "Republic of Moldova",
+            "pl": "Mo\u0142dawia, Republika",
+            "ru": "\u041c\u043e\u043b\u0434\u0430\u0432\u0438\u044f"
+        }
+    },
+    {
+        "country_code": "ME",
+        "id": 3194884,
+        "localized_name": {
+            "be": "\u0427\u0430\u0440\u043d\u0430\u0433\u043e\u0440\u044b\u044f",
+            "en": "Montenegro",
+            "pl": "Czarnog\u00f3ra",
+            "ru": "\u0427\u0435\u0440\u043d\u043e\u0433\u043e\u0440\u0438\u044f"
+        }
+    },
+    {
+        "country_code": "MG",
+        "id": 1062947,
+        "localized_name": {
+            "be": "\u041c\u0430\u0434\u0430\u0433\u0430\u0441\u043a\u0430\u0440",
+            "en": "Republic of Madagascar",
+            "pl": "Madagaskar",
+            "ru": "\u0420\u0435\u0441\u043f\u0443\u0431\u043b\u0438\u043a\u0430 \u041c\u0430\u0434\u0430\u0433\u0430\u0441\u043a\u0430\u0440"
+        }
+    },
+    {
+        "country_code": "MK",
+        "id": 718075,
+        "localized_name": {
+            "be": "\u041c\u0430\u043a\u0435\u0434\u043e\u043d\u0456\u044f, \u0411\u042e\u0420",
+            "en": "North Macedonia",
+            "pl": "By\u0142a Jugos\u0142owia\u0144ska Republika Macedonii",
+            "ru": "\u0421\u0435\u0432\u0435\u0440\u043d\u0430\u044f \u041c\u0430\u043a\u0435\u0434\u043e\u043d\u0438\u044f"
+        }
+    },
+    {
+        "country_code": "ML",
+        "id": 2453866,
+        "localized_name": {
+            "be": "\u041c\u0430\u043b\u0456",
+            "en": "Mali",
+            "pl": "Mali",
+            "ru": "\u041c\u0430\u043b\u0438"
+        }
+    },
+    {
+        "country_code": "MM",
+        "id": 1327865,
+        "localized_name": {
+            "be": "\u041c'\u044f\u043d\u043c\u0430",
+            "en": "Myanmar",
+            "pl": "Myanmar",
+            "ru": "\u041c\u044c\u044f\u043d\u043c\u0430"
+        }
+    },
+    {
+        "country_code": "MN",
+        "id": 2029969,
+        "localized_name": {
+            "be": "\u041c\u0430\u043d\u0433\u043e\u043b\u0456\u044f",
+            "en": "Mongolia",
+            "pl": "Mongolia",
+            "ru": "\u041c\u043e\u043d\u0433\u043e\u043b\u0438\u044f"
+        }
+    },
+    {
+        "country_code": "MR",
+        "id": 2378080,
+        "localized_name": {
+            "be": "\u041c\u0430\u045e\u0440\u044b\u0442\u0430\u043d\u0456\u044f",
+            "en": "Islamic Republic of Mauritania",
+            "pl": "Mauretania",
+            "ru": "\u041c\u0430\u0432\u0440\u0438\u0442\u0430\u043d\u0438\u044f"
+        }
+    },
+    {
+        "country_code": "MT",
+        "id": 2562770,
+        "localized_name": {
+            "be": "\u041c\u0430\u043b\u044c\u0442\u0430",
+            "en": "Malta",
+            "pl": "Malta",
+            "ru": "\u041c\u0430\u043b\u044c\u0442\u0430"
+        }
+    },
+    {
+        "country_code": "MU",
+        "id": 934292,
+        "localized_name": {
+            "be": "\u041c\u0430\u045e\u0440\u044b\u043a\u0456\u0439",
+            "en": "Mauritius",
+            "pl": "Mauritius",
+            "ru": "\u041c\u0430\u0432\u0440\u0438\u043a\u0438\u0439"
+        }
+    },
+    {
+        "country_code": "MV",
+        "id": 1282028,
+        "localized_name": {
+            "be": "\u041c\u0430\u043b\u044c\u0434\u044b\u045e\u0441\u043a\u0456\u044f \u0410\u0441\u0442\u0440\u0430\u0432\u044b",
+            "en": "Republic of Maldives",
+            "pl": "Malediwy",
+            "ru": "\u041c\u0430\u043b\u044c\u0434\u0438\u0432\u0441\u043a\u0438\u0435 \u043e-\u0432\u0430"
+        }
+    },
+    {
+        "country_code": "MW",
+        "id": 927384,
+        "localized_name": {
+            "be": "\u041c\u0430\u043b\u0430\u0432\u0456",
+            "en": "Malawi",
+            "pl": "Malawi",
+            "ru": "\u041c\u0430\u043b\u0430\u0432\u0438"
+        }
+    },
+    {
+        "country_code": "MX",
+        "id": 3996063,
+        "localized_name": {
+            "be": "\u041c\u0435\u043a\u0441\u0456\u043a\u0430",
+            "en": "Mexico",
+            "pl": "Meksyk",
+            "ru": "\u041c\u0435\u043a\u0441\u0438\u043a\u0430"
+        }
+    },
+    {
+        "country_code": "MY",
+        "id": 1733045,
+        "localized_name": {
+            "be": "\u041c\u0430\u043b\u0430\u0439\u0437\u0456\u044f",
+            "en": "Malaysia",
+            "pl": "Malezja",
+            "ru": "\u041c\u0430\u043b\u0430\u0439\u0437\u0438\u044f"
+        }
+    },
+    {
+        "country_code": "MZ",
+        "id": 1036973,
+        "localized_name": {
+            "be": "\u041c\u0430\u0437\u0430\u043c\u0431\u0456\u043a",
+            "en": "Republic of Mozambique",
+            "pl": "Mozambik",
+            "ru": "\u041c\u043e\u0437\u0430\u043c\u0431\u0438\u043a"
+        }
+    },
+    {
+        "country_code": "NA",
+        "id": 3355338,
+        "localized_name": {
+            "be": "\u041d\u0430\u043c\u0456\u0431\u0456\u044f",
+            "en": "Namibia",
+            "pl": "Namibia",
+            "ru": "\u041d\u0430\u043c\u0438\u0431\u0438\u044f"
+        }
+    },
+    {
+        "country_code": "NE",
+        "id": 2440476,
+        "localized_name": {
+            "be": "\u041d\u0456\u0433\u0435\u0440",
+            "en": "Republic of Niger",
+            "pl": "Niger",
+            "ru": "\u041d\u0438\u0433\u0435\u0440"
+        }
+    },
+    {
+        "country_code": "NG",
+        "id": 2328926,
+        "localized_name": {
+            "be": "\u041d\u0456\u0433\u0435\u0440\u044b\u044f",
+            "en": "Nigeria",
+            "pl": "Nigeria",
+            "ru": "\u041d\u0438\u0433\u0435\u0440\u0438\u044f"
+        }
+    },
+    {
+        "country_code": "NI",
+        "id": 3617476,
+        "localized_name": {
+            "be": "\u041d\u0456\u043a\u0430\u0440\u0430\u0433\u0443\u0430",
+            "en": "Republic of Nicaragua",
+            "pl": "Nikaragua",
+            "ru": "\u041d\u0438\u043a\u0430\u0440\u0430\u0433\u0443\u0430"
+        }
+    },
+    {
+        "country_code": "NL",
+        "id": 2750405,
+        "localized_name": {
+            "be": "\u041d\u0456\u0434\u044d\u0440\u043b\u0430\u043d\u0434\u044b",
+            "en": "Netherlands",
+            "pl": "Holandia",
+            "ru": "\u041d\u0438\u0434\u0435\u0440\u043b\u0430\u043d\u0434\u044b"
+        }
+    },
+    {
+        "country_code": "NO",
+        "id": 3144096,
+        "localized_name": {
+            "be": "\u041d\u0430\u0440\u0432\u0435\u0433\u0456\u044f",
+            "en": "Norway",
+            "pl": "Norwegia",
+            "ru": "\u041d\u043e\u0440\u0432\u0435\u0433\u0438\u044f"
+        }
+    },
+    {
+        "country_code": "NP",
+        "id": 1282988,
+        "localized_name": {
+            "be": "\u041d\u0435\u043f\u0430\u043b",
+            "en": "Federal Democratic Republic of Nepal",
+            "pl": "Nepal",
+            "ru": "\u041d\u0435\u043f\u0430\u043b"
+        }
+    },
+    {
+        "country_code": "NR",
+        "id": 2110425,
+        "localized_name": {
+            "be": "\u041d\u0430\u0443\u0440\u0443",
+            "en": "Republic of Nauru",
+            "pl": "Nauru",
+            "ru": "\u041d\u0430\u0443\u0440\u0443"
+        }
+    },
+    {
+        "country_code": "NZ",
+        "id": 2186224,
+        "localized_name": {
+            "be": "\u041d\u043e\u0432\u0430\u044f \u0417\u0435\u043b\u0430\u043d\u0434\u044b\u044f",
+            "en": "New Zealand",
+            "pl": "Nowa Zelandia",
+            "ru": "\u041d\u043e\u0432\u0430\u044f \u0417\u0435\u043b\u0430\u043d\u0434\u0438\u044f"
+        }
+    },
+    {
+        "country_code": "OM",
+        "id": 286963,
+        "localized_name": {
+            "be": "\u0410\u043c\u0430\u043d",
+            "en": "Sultanate of Oman",
+            "pl": "Oman",
+            "ru": "\u041e\u043c\u0430\u043d"
+        }
+    },
+    {
+        "country_code": "PA",
+        "id": 3703430,
+        "localized_name": {
+            "be": "\u041f\u0430\u043d\u0430\u043c\u0430",
+            "en": "Republic of Panama",
+            "pl": "Panama",
+            "ru": "\u041f\u0430\u043d\u0430\u043c\u0430"
+        }
+    },
+    {
+        "country_code": "PE",
+        "id": 3932488,
+        "localized_name": {
+            "be": "\u041f\u0435\u0440\u0443",
+            "en": "Republic of Peru",
+            "pl": "Peru",
+            "ru": "\u041f\u0435\u0440\u0443"
+        }
+    },
+    {
+        "country_code": "PG",
+        "id": 2088628,
+        "localized_name": {
+            "be": "\u041f\u0430\u043f\u0443\u0430-\u041d\u043e\u0432\u0430\u044f \u0413\u0432\u0456\u043d\u0435\u044f",
+            "en": "Papua New Guinea",
+            "pl": "Papua Nowa Gwinea",
+            "ru": "\u041f\u0430\u043f\u0443\u0430 \u2013 \u041d\u043e\u0432\u0430\u044f \u0413\u0432\u0438\u043d\u0435\u044f"
+        }
+    },
+    {
+        "country_code": "PH",
+        "id": 1694008,
+        "localized_name": {
+            "be": "\u0424\u0456\u043b\u0456\u043f\u0456\u043d\u044b",
+            "en": "Philippines",
+            "pl": "Filipiny",
+            "ru": "\u0424\u0438\u043b\u0438\u043f\u043f\u0438\u043d\u044b"
+        }
+    },
+    {
+        "country_code": "PK",
+        "id": 1168579,
+        "localized_name": {
+            "be": "\u041f\u0430\u043a\u0456\u0441\u0442\u0430\u043d",
+            "en": "Islamic Republic of Pakistan",
+            "pl": "Pakistan",
+            "ru": "\u041f\u0430\u043a\u0438\u0441\u0442\u0430\u043d"
+        }
+    },
+    {
+        "country_code": "PL",
+        "id": 798544,
+        "localized_name": {
+            "be": "\u041f\u043e\u043b\u044c\u0448\u0447\u0430",
+            "en": "Poland",
+            "pl": "Polska",
+            "ru": "\u041f\u043e\u043b\u044c\u0448\u0430"
+        }
+    },
+    {
+        "country_code": "PT",
+        "id": 2264397,
+        "localized_name": {
+            "be": "\u041f\u0430\u0440\u0442\u0443\u0433\u0430\u043b\u0456\u044f",
+            "en": "Portuguese Republic",
+            "pl": "Portugalia",
+            "ru": "\u041f\u043e\u0440\u0442\u0443\u0433\u0430\u043b\u0438\u044f"
+        }
+    },
+    {
+        "country_code": "PY",
+        "id": 3437598,
+        "localized_name": {
+            "be": "\u041f\u0430\u0440\u0430\u0433\u0432\u0430\u0439",
+            "en": "Republic of Paraguay",
+            "pl": "Paragwaj",
+            "ru": "\u041f\u0430\u0440\u0430\u0433\u0432\u0430\u0439"
+        }
+    },
+    {
+        "country_code": "QA",
+        "id": 289688,
+        "localized_name": {
+            "be": "\u041a\u0430\u0442\u0430\u0440",
+            "en": "State of Qatar",
+            "pl": "Katar",
+            "ru": "\u041a\u0430\u0442\u0430\u0440"
+        }
+    },
+    {
+        "country_code": "RO",
+        "id": 798549,
+        "localized_name": {
+            "be": "\u0420\u0443\u043c\u044b\u043d\u0456\u044f",
+            "en": "Romania",
+            "pl": "Rumunia",
+            "ru": "\u0420\u0443\u043c\u044b\u043d\u0438\u044f"
+        }
+    },
+    {
+        "country_code": "RS",
+        "id": 6290252,
+        "localized_name": {
+            "be": "\u0421\u0435\u0440\u0431\u0456\u044f",
+            "en": "Serbia",
+            "pl": "Serbia",
+            "ru": "\u0421\u0435\u0440\u0431\u0438\u044f"
+        }
+    },
+    {
+        "country_code": "RU",
+        "id": 2017370,
+        "localized_name": {
+            "be": "\u0420\u0430\u0441\u0456\u0439\u0441\u043a\u0430\u044f \u0424\u0435\u0434\u044d\u0440\u0430\u0446\u044b\u044f",
+            "en": "Russia",
+            "pl": "Rosja",
+            "ru": "\u0420\u043e\u0441\u0441\u0438\u044f"
+        }
+    },
+    {
+        "country_code": "RW",
+        "id": 49518,
+        "localized_name": {
+            "be": "\u0420\u0443\u0430\u043d\u0434\u0430",
+            "en": "Republic of Rwanda",
+            "pl": "Rwanda",
+            "ru": "\u0420\u0443\u0430\u043d\u0434\u0430"
+        }
+    },
+    {
+        "country_code": "SA",
+        "id": 102358,
+        "localized_name": {
+            "be": "\u0421\u0430\u0443\u0434\u0430\u045e\u0441\u043a\u0430\u044f \u0410\u0440\u0430\u0432\u0456\u044f",
+            "en": "Kingdom of Saudi Arabia",
+            "pl": "Arabia Saudyjska",
+            "ru": "\u0421\u0430\u0443\u0434\u043e\u0432\u0441\u043a\u0430\u044f \u0410\u0440\u0430\u0432\u0438\u044f"
+        }
+    },
+    {
+        "country_code": "SB",
+        "id": 2103350,
+        "localized_name": {
+            "be": "\u0421\u0430\u043b\u0430\u043c\u043e\u043d\u0430\u0432\u044b \u0410\u0441\u0442\u0440\u0430\u0432\u044b",
+            "en": "Solomon Islands",
+            "pl": "Wyspy Salomona",
+            "ru": "\u0421\u043e\u043b\u043e\u043c\u043e\u043d\u0441\u043a\u0438\u0435 \u043e\u0441\u0442\u0440\u043e\u0432\u0430"
+        }
+    },
+    {
+        "country_code": "SC",
+        "id": 241170,
+        "localized_name": {
+            "be": "\u0421\u0435\u0439\u0448\u044d\u043b\u044c\u0441\u043a\u0456\u044f \u0410\u0441\u0442\u0440\u0430\u0432\u044b",
+            "en": "Seychelles",
+            "pl": "Seszele",
+            "ru": "\u0421\u0435\u0439\u0448\u0435\u043b\u044c\u0441\u043a\u0438\u0435 \u043e-\u0432\u0430"
+        }
+    },
+    {
+        "country_code": "SD",
+        "id": 366755,
+        "localized_name": {
+            "be": "\u0421\u0443\u0434\u0430\u043d",
+            "en": "Sudan",
+            "pl": "Sudan",
+            "ru": "\u0421\u0443\u0434\u0430\u043d"
+        }
+    },
+    {
+        "country_code": "SE",
+        "id": 2661886,
+        "localized_name": {
+            "be": "\u0428\u0432\u0435\u0446\u044b\u044f",
+            "en": "Kingdom of Sweden",
+            "pl": "Szwecja",
+            "ru": "\u0428\u0432\u0435\u0446\u0438\u044f"
+        }
+    },
+    {
+        "country_code": "SG",
+        "id": 1880251,
+        "localized_name": {
+            "be": "\u0421\u0456\u043d\u0433\u0430\u043f\u0443\u0440",
+            "en": "Singapore",
+            "pl": "Singapur",
+            "ru": "\u0421\u0438\u043d\u0433\u0430\u043f\u0443\u0440"
+        }
+    },
+    {
+        "country_code": "SI",
+        "id": 3190538,
+        "localized_name": {
+            "be": "\u0421\u043b\u0430\u0432\u0435\u043d\u0456\u044f",
+            "en": "Republic of Slovenia",
+            "pl": "S\u0142owenia",
+            "ru": "\u0421\u043b\u043e\u0432\u0435\u043d\u0438\u044f"
+        }
+    },
+    {
+        "country_code": "SK",
+        "id": 3057568,
+        "localized_name": {
+            "be": "\u0421\u043b\u0430\u0432\u0430\u043a\u0456\u044f",
+            "en": "Slovakia",
+            "pl": "S\u0142owacja",
+            "ru": "\u0421\u043b\u043e\u0432\u0430\u0446\u043a\u0430\u044f \u0440\u0435\u0441\u043f\u0443\u0431\u043b\u0438\u043a\u0430"
+        }
+    },
+    {
+        "country_code": "SL",
+        "id": 2403846,
+        "localized_name": {
+            "be": "\u0421\u044c\u0435\u0440\u0430-\u041b\u0435\u043e\u043d\u044d",
+            "en": "Sierra Leone",
+            "pl": "Sierra Leone",
+            "ru": "\u0421\u044c\u0435\u0440\u0440\u0430-\u041b\u0435\u043e\u043d\u0435"
+        }
+    },
+    {
+        "country_code": "SM",
+        "id": 3168068,
+        "localized_name": {
+            "be": "\u0421\u0430\u043d-\u041c\u0430\u0440\u044b\u043d\u0430",
+            "en": "San Marino",
+            "pl": "San Marino",
+            "ru": "\u0421\u0430\u043d-\u041c\u0430\u0440\u0438\u043d\u043e"
+        }
+    },
+    {
+        "country_code": "SN",
+        "id": 2245662,
+        "localized_name": {
+            "be": "\u0421\u0435\u043d\u0435\u0433\u0430\u043b",
+            "en": "Republic of Senegal",
+            "pl": "Senegal",
+            "ru": "\u0421\u0435\u043d\u0435\u0433\u0430\u043b"
+        }
+    },
+    {
+        "country_code": "SO",
+        "id": 51537,
+        "localized_name": {
+            "be": "\u0421\u0430\u043c\u0430\u043b\u0456",
+            "en": "Somalia",
+            "pl": "Somalia",
+            "ru": "\u0421\u043e\u043c\u0430\u043b\u0438"
+        }
+    },
+    {
+        "country_code": "SR",
+        "id": 3382998,
+        "localized_name": {
+            "be": "\u0421\u0443\u0440\u044b\u043d\u0430\u043c",
+            "en": "Republic of Suriname",
+            "pl": "Surinam",
+            "ru": "\u0421\u0443\u0440\u0438\u043d\u0430\u043c"
+        }
+    },
+    {
+        "country_code": "SS",
+        "id": 7909807,
+        "localized_name": {
+            "en": "Republic of South Sudan",
+            "pl": "Sudan Po\u0142udniowy",
+            "ru": "\u042e\u0436\u043d\u044b\u0439 \u0421\u0443\u0434\u0430\u043d"
+        }
+    },
+    {
+        "country_code": "ST",
+        "id": 2410758,
+        "localized_name": {
+            "be": "\u0421\u0430\u043d-\u0422\u043e\u043c\u044d \u0456 \u041f\u0440\u044b\u043d\u0441\u0456\u043f\u0456",
+            "en": "S\u00e3o Tom\u00e9 and Pr\u00edncipe",
+            "pl": "Wyspy \u015awi\u0119tego Tomasza i Ksi\u0105\u017c\u0119ca",
+            "ru": "\u0421\u0430\u043d-\u0422\u043e\u043c\u0435 \u0438 \u041f\u0440\u0438\u043d\u0441\u0438\u043f\u0435"
+        }
+    },
+    {
+        "country_code": "SV",
+        "id": 3585968,
+        "localized_name": {
+            "be": "\u0421\u0430\u043b\u044c\u0432\u0430\u0434\u043e\u0440",
+            "en": "Republic of El Salvador",
+            "pl": "Salwador",
+            "ru": "\u0421\u0430\u043b\u044c\u0432\u0430\u0434\u043e\u0440"
+        }
+    },
+    {
+        "country_code": "SY",
+        "id": 163843,
+        "localized_name": {
+            "be": "\u0421\u0456\u0440\u044b\u0439\u0441\u043a\u0430\u044f \u0410\u0440\u0430\u0431\u0441\u043a\u0430\u044f \u0420\u044d\u0441\u043f\u0443\u0431\u043b\u0456\u043a\u0430",
+            "en": "Syrian Arab Republic",
+            "pl": "Syria",
+            "ru": "\u0421\u0438\u0440\u0438\u0439\u0441\u043a\u0430\u044f \u0410\u0440\u0430\u0431\u0441\u043a\u0430\u044f \u0420\u0435\u0441\u043f\u0443\u0431\u043b\u0438\u043a\u0430"
+        }
+    },
+    {
+        "country_code": "SZ",
+        "id": 934841,
+        "localized_name": {
+            "be": "\u0421\u0432\u0430\u0437\u0456\u043b\u0435\u043d\u0434",
+            "en": "Eswatini",
+            "pl": "Suazi",
+            "ru": "\u0421\u0432\u0430\u0437\u0438\u043b\u0435\u043d\u0434"
+        }
+    },
+    {
+        "country_code": "TD",
+        "id": 2434508,
+        "localized_name": {
+            "be": "\u0427\u0430\u0434",
+            "en": "Republic of Chad",
+            "pl": "Czad",
+            "ru": "\u0427\u0430\u0434"
+        }
+    },
+    {
+        "country_code": "TG",
+        "id": 2363686,
+        "localized_name": {
+            "be": "\u0422\u043e\u0433\u0430",
+            "en": "Togolese Republic",
+            "pl": "Togo",
+            "ru": "\u0422\u043e\u0433\u043e"
+        }
+    },
+    {
+        "country_code": "TH",
+        "id": 1605651,
+        "localized_name": {
+            "be": "\u0422\u0430\u0439\u043b\u0430\u043d\u0434",
+            "en": "Kingdom of Thailand",
+            "pl": "Tajlandia",
+            "ru": "\u0422\u0430\u0439\u043b\u0430\u043d\u0434"
+        }
+    },
+    {
+        "country_code": "TJ",
+        "id": 1220409,
+        "localized_name": {
+            "be": "\u0422\u0430\u0434\u0436\u044b\u043a\u0456\u0441\u0442\u0430\u043d",
+            "en": "Republic of Tajikistan",
+            "pl": "Tad\u017cykistan",
+            "ru": "\u0422\u0430\u0434\u0436\u0438\u043a\u0438\u0441\u0442\u0430\u043d"
+        }
+    },
+    {
+        "country_code": "TL",
+        "id": 1966436,
+        "localized_name": {
+            "be": "\u0423\u0441\u0445\u043e\u0434\u043d\u0456 \u0422\u044b\u043c\u043e\u0440",
+            "en": "Timor-Leste",
+            "pl": "Timor Wschodni",
+            "ru": "\u0412\u043e\u0441\u0442\u043e\u0447\u043d\u044b\u0439 \u0422\u0438\u043c\u043e\u0440"
+        }
+    },
+    {
+        "country_code": "TM",
+        "id": 1218197,
+        "localized_name": {
+            "be": "\u0422\u0443\u0440\u043a\u043c\u0435\u043d\u0456\u0441\u0442\u0430\u043d",
+            "en": "Turkmenistan",
+            "pl": "Turkmenistan",
+            "ru": "\u0422\u0443\u0440\u043a\u043c\u0435\u043d\u0438\u0441\u0442\u0430\u043d"
+        }
+    },
+    {
+        "country_code": "TN",
+        "id": 2464461,
+        "localized_name": {
+            "be": "\u0422\u0443\u043d\u0456\u0441",
+            "en": "Tunisian Republic",
+            "pl": "Tunezja",
+            "ru": "\u0422\u0443\u043d\u0438\u0441"
+        }
+    },
+    {
+        "country_code": "TO",
+        "id": 4032283,
+        "localized_name": {
+            "be": "\u0422\u0430\u043d\u0433\u0456\u0439\u0441\u043a\u0430\u044f",
+            "en": "Tonga",
+            "pl": "Tonga",
+            "ru": "\u0422\u043e\u043d\u0433\u0430"
+        }
+    },
+    {
+        "country_code": "TR",
+        "id": 298795,
+        "localized_name": {
+            "be": "\u0422\u0443\u0440\u0446\u044b\u044f",
+            "en": "Turkey",
+            "pl": "Turcja",
+            "ru": "\u0422\u0443\u0440\u0446\u0438\u044f"
+        }
+    },
+    {
+        "country_code": "TT",
+        "id": 3573591,
+        "localized_name": {
+            "be": "\u0422\u0440\u044b\u043d\u0456\u0434\u0430\u0434 \u0456 \u0422\u0430\u0431\u0430\u0433\u0430",
+            "en": "Trinidad and Tobago",
+            "pl": "Trinidad i Tobago",
+            "ru": "\u0422\u0440\u0438\u043d\u0438\u0434\u0430\u0434 \u0438 \u0422\u043e\u0431\u0430\u0433\u043e"
+        }
+    },
+    {
+        "country_code": "TV",
+        "id": 2110297,
+        "localized_name": {
+            "be": "\u0422\u0443\u0432\u0430\u043b\u0443",
+            "en": "Tuvalu",
+            "pl": "Tuvalu",
+            "ru": "\u0422\u0443\u0432\u0430\u043b\u0443"
+        }
+    },
+    {
+        "country_code": "TW",
+        "id": 1668284,
+        "localized_name": {
+            "be": "\u0422\u0430\u0439\u0432\u0430\u043d\u044c",
+            "en": "Taiwan ROC",
+            "pl": "Republika Chi\u0144ska",
+            "ru": "\u0422\u0430\u0439\u0432\u0430\u043d\u044c"
+        }
+    },
+    {
+        "country_code": "TZ",
+        "id": 149590,
+        "localized_name": {
+            "be": "\u0422\u0430\u043d\u0437\u0430\u043d\u0456\u044f, \u0410\u0431'\u044f\u0434\u043d\u0430\u043d\u0430\u044f \u0420\u044d\u0441\u043f\u0443\u0431\u043b\u0456\u043a\u0430",
+            "en": "Tanzania",
+            "pl": "Tanzania",
+            "ru": "\u0422\u0430\u043d\u0437\u0430\u043d\u0438\u044f"
+        }
+    },
+    {
+        "country_code": "UA",
+        "id": 690791,
+        "localized_name": {
+            "be": "\u0423\u043a\u0440\u0430\u0456\u043d\u0430",
+            "en": "Ukraine",
+            "pl": "Ukraina",
+            "ru": "\u0423\u043a\u0440\u0430\u0438\u043d\u0430"
+        }
+    },
+    {
+        "country_code": "UG",
+        "id": 226074,
+        "localized_name": {
+            "be": "\u0423\u0433\u0430\u043d\u0434\u0430",
+            "en": "Uganda",
+            "pl": "Uganda",
+            "ru": "\u0423\u0433\u0430\u043d\u0434\u0430"
+        }
+    },
+    {
+        "country_code": "US",
+        "id": 6252001,
+        "localized_name": {
+            "be": "\u0417\u043b\u0443\u0447\u0430\u043d\u044b\u044f \u0428\u0442\u0430\u0442\u044b \u0410\u043c\u0435\u0440\u044b\u043a\u0456",
+            "en": "United States of America",
+            "pl": "Stany Zjednoczone",
+            "ru": "\u0421\u0428\u0410"
+        }
+    },
+    {
+        "country_code": "UY",
+        "id": 3439705,
+        "localized_name": {
+            "be": "\u0423\u0440\u0443\u0433\u0432\u0430\u0439",
+            "en": "Oriental Republic of Uruguay",
+            "pl": "Urugwaj",
+            "ru": "\u0423\u0440\u0443\u0433\u0432\u0430\u0439"
+        }
+    },
+    {
+        "country_code": "UZ",
+        "id": 1512440,
+        "localized_name": {
+            "be": "\u0423\u0437\u0431\u0435\u043a\u0456\u0441\u0442\u0430\u043d",
+            "en": "Republic of Uzbekistan",
+            "pl": "Uzbekistan",
+            "ru": "\u0423\u0437\u0431\u0435\u043a\u0438\u0441\u0442\u0430\u043d"
+        }
+    },
+    {
+        "country_code": "VA",
+        "id": 3164670,
+        "localized_name": {
+            "be": "\u0412\u0430\u0442\u044b\u043a\u0430\u043d",
+            "en": "Holy See (Vatican City State)",
+            "pl": "Stolica Apostolska (Watykan)",
+            "ru": "\u0412\u0430\u0442\u0438\u043a\u0430\u043d"
+        }
+    },
+    {
+        "country_code": "VC",
+        "id": 3577815,
+        "localized_name": {
+            "be": "\u0421\u044d\u043d\u0442-\u0412\u0456\u043d\u0441\u044d\u043d\u0442 \u0456 \u0413\u0440\u044d\u043d\u0430\u0434\u044b\u043d\u044b",
+            "en": "St Vincent and Grenadines",
+            "pl": "Saint Vincent and the Grenadines",
+            "ru": "\u0421\u0435\u043d\u0442-\u0412\u0438\u043d\u0441\u0435\u043d\u0442 \u0438 \u0413\u0440\u0435\u043d\u0430\u0434\u0438\u043d\u044b"
+        }
+    },
+    {
+        "country_code": "VE",
+        "id": 3625428,
+        "localized_name": {
+            "be": "\u0412\u0435\u043d\u0435\u0441\u0443\u044d\u043b\u0430",
+            "en": "Venezuela",
+            "pl": "Wenezuela",
+            "ru": "\u0412\u0435\u043d\u0435\u0441\u0443\u044d\u043b\u0430"
+        }
+    },
+    {
+        "country_code": "VN",
+        "id": 1562822,
+        "localized_name": {
+            "be": "\u0412'\u0435\u0442\u043d\u0430\u043c",
+            "en": "Socialist Republic of Vietnam",
+            "pl": "Wietnam",
+            "ru": "\u0412\u044c\u0435\u0442\u043d\u0430\u043c"
+        }
+    },
+    {
+        "country_code": "VU",
+        "id": 2134431,
+        "localized_name": {
+            "be": "\u0412\u0430\u043d\u0443\u0430\u0442\u0443",
+            "en": "Republic of Vanuatu",
+            "pl": "Vanuatu",
+            "ru": "\u0412\u0430\u043d\u0443\u0430\u0442\u0443"
+        }
+    },
+    {
+        "country_code": "WS",
+        "id": 4034894,
+        "localized_name": {
+            "be": "\u0421\u0430\u043c\u043e\u0430 (\u0417\u0430\u0445\u043e\u0434\u043d\u044f\u0435)",
+            "en": "Independent State of Samoa",
+            "pl": "Samoa",
+            "ru": "\u0421\u0430\u043c\u043e\u0430"
+        }
+    },
+    {
+        "country_code": "XK",
+        "id": 831053,
+        "localized_name": {
+            "be": "\u0420\u0435\u0441\u043f\u0443\u0431\u043b\u0456\u043a\u0430 \u041a\u043e\u0441\u0430\u0432\u0430",
+            "en": "Republic of Kosovo",
+            "pl": "Kosowo",
+            "ru": "\u041a\u043e\u0441\u043e\u0432\u043e"
+        }
+    },
+    {
+        "country_code": "YE",
+        "id": 69543,
+        "localized_name": {
+            "be": "\u0415\u043c\u0435\u043d",
+            "en": "Yemen",
+            "pl": "Jemen",
+            "ru": "\u0419\u0435\u043c\u0435\u043d"
+        }
+    },
+    {
+        "country_code": "ZA",
+        "id": 953987,
+        "localized_name": {
+            "be": "\u041f\u0430\u045e\u0434\u043d\u0451\u0432\u0430-\u0410\u0444\u0440\u044b\u043a\u0430\u043d\u0441\u043a\u0430\u044f \u0420\u044d\u0441\u043f\u0443\u0431\u043b\u0456\u043a\u0430",
+            "en": "Republic of South Africa",
+            "pl": "Afryka Po\u0142udniowa",
+            "ru": "\u042e\u0410\u0420"
+        }
+    },
+    {
+        "country_code": "ZM",
+        "id": 895949,
+        "localized_name": {
+            "be": "\u0417\u0430\u043c\u0431\u0456\u044f",
+            "en": "Zambia",
+            "pl": "Rodezja P\u00f3\u0142nocna",
+            "ru": "\u0417\u0430\u043c\u0431\u0438\u044f"
+        }
+    },
+    {
+        "country_code": "ZW",
+        "id": 878675,
+        "localized_name": {
+            "be": "\u0417\u0456\u043c\u0431\u0430\u0431\u0432\u044d",
+            "en": "Zimbabwe",
+            "pl": "Zimbabwe",
+            "ru": "\u0417\u0438\u043c\u0431\u0430\u0431\u0432\u0435"
+        }
+    }
+]

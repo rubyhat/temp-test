@@ -1,0 +1,30 @@
+{
+    "name": "saas-app",
+    "version": "1.0.0",
+    "description": "",
+    "scripts": {
+        "saas:config:copy": "node commands/saas/copy-config.js",
+        "cordova:generate-resources": "node commands/cordova/generate-resources.js",
+        "platforms-rollback": "git checkout -- ./android ./ios",
+        "bootstrap": "npm run platforms-rollback && commands/bootstrap.sh"
+    },
+    "author": "bludnic",
+    "license": "ISC",
+    "dependencies": {
+        "@capacitor/android": "^3.2.0",
+        "@capacitor/cli": "^3.2.0",
+        "@capacitor/core": "^3.2.0",
+        "@capacitor/ios": "^3.2.0",
+        "axios": "^0.21.1",
+        "cordova-plugin-apprate": "^1.7.2",
+        "cordova-plugin-dialogs": "^2.0.2",
+        "cordova-plugin-inappbrowser": "^5.0.0",
+        "cordova-plugin-nativestorage": "^2.3.2",
+        "cordova-res": "^0.15.3",
+        "dotenv": "^10.0.0",
+        "image-downloader": "^4.0.3",
+        "ionic-plugin-deeplinks": "^1.0.22",
+        "onesignal-cordova-plugin": "^2.11.4",
+        "typescript": "^4.3.5"
+    }
+}

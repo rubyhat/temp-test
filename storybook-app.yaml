@@ -1,0 +1,9 @@
+runtime: nodejs10
+service: storybook
+
+handlers:
+    - url: /.*
+      secure: always
+      redirect_http_response_code: 301
+      script: auto
+entrypoint: npm run start-storybook

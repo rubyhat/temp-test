@@ -1,0 +1,10 @@
+node_modules/
+.next/
+
+packages/cordova/www
+packages/cordova/node_modules
+packages/cordova/platforms
+storybook-static/
+
+.git
+Dockerfile

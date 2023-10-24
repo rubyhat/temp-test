@@ -1,0 +1,20 @@
+# SaaS конфиг партнера
+saas-config.json
+
+# Иконки и сплешскрины
+resources
+
+# Fastlane
+fastlane/report.xml
+
+# Android
+ru.atlas.tickets.keystore.jks
+
+# Artifacts
+artifacts
+
+# Play Store JSON Key
+play-store-json-key.json
+
+# Carbus App iOS Keys Repository
+ios-keys

@@ -1,0 +1,39 @@
+import("Fastfile.ios")
+import("Fastfile.android")
+
+platform :ios do
+    lane :testing do
+        build(testing: true)
+        appcenter(testing: true)
+    end
+    lane :production do
+        build(production: true)
+        appcenter(production: true)
+        # deploy
+    end
+end
+
+platform :android do
+    lane :testing do
+        build(testing: true)
+        appcenter(
+            testing: true,
+            file: 'platforms/android/app/build/outputs/apk/debug/app-debug.apk'
+        )
+    end
+    lane :testing_release do
+        build(production: true)
+        appcenter(
+            testing: true,
+            file: 'platforms/android/app/build/outputs/bundle/release/app.aab'
+        )
+    end
+    lane :production do
+        build(production: true)
+        appcenter(
+            production: true,
+            file: 'platforms/android/app/build/outputs/bundle/release/app.aab'
+        )
+        deploy
+    end
+end

@@ -1,0 +1,11 @@
+{
+    "config_ios": {
+        "CFBundleDisplayName": "Atlas",
+        "CFBundleName": "Atlas",
+        "NSLocationWhenInUseUsageDescription": "For displaying your position on map",
+        "NSLocationAlwaysUsageDescription ": "For displaying your position on map"
+    },
+    "config_android": {
+        "app_name": "Atlas"
+    }
+}

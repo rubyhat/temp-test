@@ -1,0 +1,10 @@
+platforms/*
+/www/*
+!/www/.gitkeep
+config.xml
+fastlane/report.xml
+plugins/android.json
+plugins/ios.json
+
+google-services.json
+GoogleService-Info.plist

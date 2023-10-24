@@ -1,0 +1,17 @@
+{
+    "writeKey": "a8551199316145734238-f600816831c7b4c7c968bd8abadf1d1566832283a8cd0e510f3a0827c0604748",
+    "readKey": "a8551199316145734238-7ab649974111360de2632bb8c1d7d6168c007f3cb487ba95f3ff48a81190588f",
+
+    "upload": {
+        "type": "json",
+        "files": "public/static/locales/ru/*.json",
+        "features": ["plural_i18next"]
+    },
+
+    "download": {
+        "files": "public/static/locales/${lang}/${file}",
+        "includeSourceLang": true
+    },
+
+    "transformations": []
+}

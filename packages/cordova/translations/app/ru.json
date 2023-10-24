@@ -1,0 +1,11 @@
+{
+    "config_ios": {
+        "CFBundleDisplayName": "Атлас",
+        "CFBundleName": "Атлас",
+        "NSLocationWhenInUseUsageDescription": "Для отображения вашей локации на карте",
+        "NSLocationAlwaysUsageDescription ": "Для отображения вашей локации на карте"
+    },
+    "config_android": {
+        "app_name": "Атлас"
+    }
+}

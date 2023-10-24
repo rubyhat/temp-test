@@ -1,0 +1,20 @@
+timeout: 3600s
+
+steps:
+-   name: 'gcr.io/kaniko-project/executor:v1.9.1-debug'
+    args: [
+        '--dockerfile', './Dockerfile',
+        '--context', 'dir://.',
+        '--destination', 'gcr.io/atlas-k8s/morda-frontend-$_ENV:$_VERSION',
+        '--build-arg', 'BUILD_VERSION=$_BUILD_VERSION',
+        '--build-arg', 'SOURCEMAPS=true',
+        '--build-arg', 'SENTRY_AUTH_TOKEN=$_SENTRY_AUTH_TOKEN',
+    ]
+-   name: 'gcr.io/cloud-builders/docker'
+    args: ['pull', 'gcr.io/atlas-k8s/morda-frontend-$_ENV:$_VERSION']
+-   name: 'gcr.io/cloud-builders/docker'
+    args: ['tag', 'gcr.io/atlas-k8s/morda-frontend-$_ENV:$_VERSION', 'gcr.io/atlas-k8s/morda-frontend-$_ENV:latest']
+
+images:
+  - 'gcr.io/atlas-k8s/morda-frontend-$_ENV:$_VERSION'
+  - 'gcr.io/atlas-k8s/morda-frontend-$_ENV:latest'

@@ -1,0 +1,9 @@
+{
+	"appId": "io.carbus.app.sample",
+	"appName": "Carbus SaaS App",
+	"webDir": "www",
+	"bundledWebRuntime": false,
+	"server": {
+		"url": "https://carbus.io"
+	}
+}

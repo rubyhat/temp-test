@@ -1,0 +1,7 @@
+[defaults]
+project=morda
+org=atlasbus
+url=https://sentry.io/
+
+[http]
+keepalive=false

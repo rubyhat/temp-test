@@ -1,0 +1,68 @@
+variables:
+    BUILD_VERSION: $CI_COMMIT_SHORT_SHA
+    VERSION: $CI_COMMIT_REF_SLUG
+
+.build: &build_template
+    image: google/cloud-sdk:alpine
+    stage: build
+    before_script:
+        - cat $DOTENV_K8S > .env
+        - cat $FIREBASE_CONFIG > firebase.config.json
+        - echo $(date +%s) > ./CACHEBUST
+        - gcloud auth activate-service-account --key-file $K8S_DEPLOYER
+    script:
+        - |
+            gcloud builds submit \
+                --config=cloudbuild.yaml \
+                --project=atlas-k8s \
+                --substitutions=_VERSION=$VERSION,_BUILD_VERSION=$BUILD_VERSION,_SENTRY_AUTH_TOKEN=$SENTRY_AUTH_TOKEN,_ENV=$ENV
+
+.deploy_template: &deploy_template
+    image: google/cloud-sdk:alpine
+    stage: deploy
+    before_script:
+        - gcloud auth activate-service-account --key-file $K8S_DEPLOYER
+    script:
+        - |
+            gcloud builds submit \
+                --config clouddeploy.yaml \
+                --project=atlas-k8s \
+                --substitutions=_VERSION=$VERSION,_ENV=$ENV
+
+stages:
+    - build
+    - deploy
+
+build_testing:
+    <<: *build_template
+    except:
+        - tags
+    environment:
+        name: testing
+
+deploy_testing:
+    <<: *deploy_template
+    dependencies:
+        - build_testing
+    when: manual
+    except:
+        - tags
+    environment:
+        name: testing
+
+build_production:
+    <<: *build_template
+    only:
+        - tags
+    environment:
+        name: production
+
+deploy_production:
+    <<: *deploy_template
+    dependencies:
+        - build_production
+    when: manual
+    only:
+        - tags
+    environment:
+        name: production

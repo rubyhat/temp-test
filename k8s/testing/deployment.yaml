@@ -1,0 +1,26 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+    name: frontend
+    namespace: morda-testing
+    labels:
+        app: frontend
+spec:
+    replicas: 1
+    selector:
+        matchLabels:
+            app: frontend
+    template:
+        metadata:
+            labels:
+                app: frontend
+        spec:
+            serviceAccountName: morda-testing-frontend
+            containers:
+                - name: frontend
+                  image: gcr.io/atlas-k8s/morda-frontend-testing:latest
+                  env:
+                      - name: PORT
+                        value: '8080'
+                  ports:
+                      - containerPort: 8080

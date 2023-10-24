@@ -1,0 +1,445 @@
+# This file contains the fastlane.tools configuration
+# You can find the documentation at https://docs.fastlane.tools
+#
+# For a list of all available actions, check out
+#
+#     https://docs.fastlane.tools/actions
+#
+# For a list of all available plugins, check out
+#
+#     https://docs.fastlane.tools/plugins/available-plugins
+#
+
+# Uncomment the line if you want fastlane to automatically update itself
+# update_fastlane
+
+import("lib/common.rb")
+import("lib/android.rb")
+import("lib/ios.rb")
+import("lib/ios-keys.rb")
+import("lib/ionic-deeplinks.rb")
+import("lib/onesignal.rb")
+
+default_platform(:android)
+
+platform :android do
+  desc "Build Android debug version"
+  lane :testing do
+    version_name = get_morda_package_json_version_name
+    version_code = get_morda_package_json_version_code
+    puts "Android info: { versionName: #{version_name}, versionCode: #{version_code} }"
+
+    puts "Parsing SaaS config"
+    saas_config = parse_saas_json_config
+
+    puts "Generating AndroidManifest.xml from template"
+    generate_android_manifest(
+      saas_config: saas_config,
+      project_path: "../android",
+      template_path: "../templates/android/app/src/main/AndroidManifest.xml"
+    )
+
+    puts "Generating res/values/strings.xml from template"
+    generate_resources_strings_xml(saas_config: saas_config)
+
+    puts "Renaming package name in android project"
+    rename_android_package_name(
+      project_path: "../android",
+      package_name: "io.carbus.app.sample",
+      new_package_name: saas_config["cordova"]["androidAppId"]
+    )
+
+    puts "Generating build.gradle from template"
+    generate_build_gradle(
+      application_id: saas_config["cordova"]["androidAppId"],
+      version_name: version_name,
+      version_code: version_code,
+      project_path: "../android",
+      template_path: "../templates/android/app/src/build.gradle"
+    )
+
+    gradle(
+      task: "assembleDebug",
+      project_dir: "android/",
+      properties: {
+        "versionCode" => 123,
+        "versionName" => "1.2.4"
+      }
+    )
+
+    copy_artifacts(
+      artifacts: ['./android/**/outputs/apk/**/*.apk', './android/**/outputs/apk/**/*.aab'],
+      target_path: './artifacts'
+    )
+  end
+
+  desc "Build Android release version"
+  lane :production do
+    version_name = get_morda_package_json_version_name
+    version_code = get_morda_package_json_version_code
+    puts "Android info: { versionName: #{version_name}, versionCode: #{version_code} }"
+
+    puts "Parsing SaaS config"
+    saas_config = parse_saas_json_config
+
+    puts "Generating AndroidManifest.xml from template"
+    generate_android_manifest(
+      saas_config: saas_config,
+      project_path: "../android",
+      template_path: "../templates/android/app/src/main/AndroidManifest.xml"
+    )
+
+    puts "Generating res/values/strings.xml from template"
+    generate_resources_strings_xml(saas_config: saas_config)
+
+    puts "Renaming package name in android project"
+    rename_android_package_name(
+      project_path: "../android",
+      package_name: "io.carbus.app.sample",
+      new_package_name: saas_config["cordova"]["androidAppId"]
+    )
+
+    puts "Generating build.gradle from template"
+    generate_build_gradle(
+      application_id: saas_config["cordova"]["androidAppId"],
+      version_name: version_name,
+      version_code: version_code,
+      project_path: "../android",
+      template_path: "../templates/android/app/src/build.gradle"
+    )
+
+    gradle(
+      task: "bundle",
+      build_type: "Release",
+      project_dir: "android/",
+      properties: {
+        "android.injected.signing.store.file" => ENV["ANDROID_KEYSTORE_PATH"],
+        "android.injected.signing.store.password" => ENV["ANDROID_KEYSTORE_PASSWORD"],
+        "android.injected.signing.key.alias" => ENV["ANDROID_KEYSTORE_ALIAS"],
+        "android.injected.signing.key.password" => ENV["ANDROID_KEYSTORE_PRIVATE_KEY_PASSWORD"],
+      }
+    )
+
+    copy_artifacts(
+      artifacts: ['./android/**/outputs/apk/**/*.apk', './android/**/outputs/bundle/**/*.aab'],
+      target_path: './artifacts'
+    )
+
+    if ENV['UPLOAD_TO_PLAY_GOOGLE'] == "true"
+      puts "Validating the Google Play Store JSON Key"
+      validate_play_store_json_key(
+        json_key: ENV["GOOGLE_PLAY_STORE_JSON_KEY_PATH"]
+      )
+
+      puts "Uploading to Google Play Store..."
+      upload_to_play_store(
+        package_name: saas_config["cordova"]["androidAppId"],
+        json_key: ENV["GOOGLE_PLAY_STORE_JSON_KEY_PATH"],
+        track: 'internal', # Внутреннее тестирование
+        release_status: 'completed', # Доступен внутренним тестировщикам
+        aab: './artifacts/app-release.aab',
+      )
+    else
+      puts "Skip uploading to Google Play Store. Set UPLOAD_TO_PLAY_GOOGLE environment to true for enabling this step."
+    end
+  end
+end
+
+platform :ios do
+  desc "Build iOS debug version"
+  lane :testing do
+    team_id = ENV["APPLE_DEVELOPER_TEAM_ID"]
+    version_name = get_morda_package_json_version_name
+    xcodeproj_path = "ios/App/App.xcodeproj"
+    workspace_path = "ios/App/App.xcworkspace"
+
+    puts "Parsing SaaS config"
+    saas_config = parse_saas_json_config
+
+    puts "Set iOS Version Number: #{version_name}"
+    increment_version_number(
+      version_number: version_name,
+      xcodeproj: xcodeproj_path
+    )
+
+    puts "Update iOS project Team ID: #{team_id}"
+    update_project_team(
+      path: xcodeproj_path,
+      teamid: team_id
+    )
+
+    puts "Update iOS Bundle Identifier"
+    update_app_identifier(
+      xcodeproj: xcodeproj_path,
+      plist_path: "App/Info.plist", # Path to info plist file, relative to xcodeproj
+      app_identifier: saas_config["cordova"]["iosAppId"]
+    )
+
+    puts "Update OneSignalNotificationServiceExtension Bundle Identifier"
+    update_onesignal_bundle_identifier(bundle_identifier: saas_config["cordova"]["iosAppId"])
+
+    puts "Set iOS automatic code signing"
+    update_code_signing_settings(
+      use_automatic_signing: true,
+      path: xcodeproj_path,
+      team_id: team_id
+    )
+
+    # Carbus App specific settings
+    puts "Updating iOS Bundle Display Name"
+    update_ios_bundle_display_name(saas_config["cordova"]["appName"])
+
+    puts "Updating settings related to +OneSignal Cordova Plugin+ in App.entitlements"
+    update_onesignal_app_entitlements(aps_environment: "production")
+
+    puts "Updating settings related to +Ionic Deeplinks Plugin+ in App.entitlements"
+    associated_domain = saas_config["meta"]["domains"][0]
+    update_ionic_deeplinks_app_entitlements(associated_domain: "applinks:#{associated_domain}")
+
+    puts "Updating settings related to +Ionic Deeplinks Plugin+ in Info.plist"
+    update_ionic_deeplinks_info_plist(url_scheme: saas_config["meta"]["partnerID"])
+
+    puts "Creates Provision Profile, if doesn't exists, and enable associated_domains and push_notification capabilities"
+    onesignal_extension_identifier_name = "Bitrise #{saas_config["partner"]}"
+    produce(
+        app_identifier: saas_config["cordova"]["iosAppId"],
+        app_name: onesignal_extension_identifier_name,
+        team_id: team_id,
+        skip_itc: true, # skip the creation of the app on App Store Connect
+        enable_services: {
+            associated_domains: "on",
+            push_notification: "on",
+        }
+    )
+    puts "Ensure a valid push certificate is active, creating a new one if needed"
+    get_push_certificate(
+      app_identifier: saas_config["cordova"]["iosAppId"],
+      team_id: team_id,
+      output_path: "./artifacts/push-certificates",
+      new_profile: proc do |profile_path| # called when a new profile was generated
+        # We can insert code here to upload the PEM file to the server
+        puts "The profile path is #{profile_path}"
+      end
+    )
+
+    puts "Creates Provision Profile for OneSignalNotificationServiceExtension, if doesn't exists"
+    onesignal_extension_identifier_name = "Bitrise #{saas_config["partner"]} OneSignalNotificationServiceExtension"
+    produce(
+        app_identifier: "#{saas_config["cordova"]["iosAppId"]}.OneSignalNotificationServiceExtension",
+        app_name: onesignal_extension_identifier_name,
+        team_id: team_id,
+        skip_itc: true, # skip the creation of the app on App Store Connect
+        enable_services: {
+            push_notification: "on",
+        }
+    )
+
+    puts "Matching io.carbus.app.{app_id} and io.carbus.app.{app_id}.OneSignalNotificationServiceExtension profiles"
+    match(
+        type: "development",
+        app_identifier: [
+            saas_config["cordova"]["iosAppId"],
+            "#{saas_config["cordova"]["iosAppId"]}.OneSignalNotificationServiceExtension"
+        ],
+        team_id: team_id,
+        readonly: false
+    )
+
+    puts "Build iOS debug version"
+    build_app(
+      scheme: "App",
+      workspace: "ios/App/App.xcworkspace",
+      skip_codesigning: true,
+      export_team_id: ENV["APPLE_DEVELOPER_TEAM_ID"],
+      configuration: "Release",
+      clean: true,
+      output_directory: "./artifacts",
+      xcargs: "-allowProvisioningUpdates" # Automatically manage signing Xcode checkbox
+    )
+  end
+
+  desc "Prepare SaaS app"
+  lane :prepare do
+    team_id = ENV["APPLE_DEVELOPER_TEAM_ID"]
+    version_name = get_morda_package_json_version_name
+    xcodeproj_path = "ios/App/App.xcodeproj"
+    workspace_path = "ios/App/App.xcworkspace"
+
+    puts "Parsing SaaS config"
+    saas_config = parse_saas_json_config
+
+    puts "Set iOS Version Number: #{version_name}"
+    increment_version_number(
+      version_number: version_name,
+      xcodeproj: xcodeproj_path
+    )
+
+    puts "Update iOS project Team ID: #{team_id}"
+    update_project_team(
+      path: xcodeproj_path,
+      teamid: team_id
+    )
+
+    puts "Update iOS Bundle Identifier"
+    update_app_identifier(
+      xcodeproj: xcodeproj_path,
+      plist_path: "App/Info.plist", # Path to info plist file, relative to xcodeproj
+      app_identifier: saas_config["cordova"]["iosAppId"]
+    )
+
+    puts "Update OneSignalNotificationServiceExtension Bundle Identifier"
+    update_onesignal_bundle_identifier(bundle_identifier: saas_config["cordova"]["iosAppId"])
+
+    # Carbus App specific settings
+    puts "Updating iOS Bundle Display Name"
+    update_ios_bundle_display_name(saas_config["cordova"]["appName"])
+
+    puts "Updating settings related to +OneSignal Cordova Plugin+ in App.entitlements"
+    update_onesignal_app_entitlements(aps_environment: "production")
+
+    puts "Updating settings related to +Ionic Deeplinks Plugin+ in App.entitlements"
+    associated_domain = saas_config["meta"]["domains"][0]
+    update_ionic_deeplinks_app_entitlements(associated_domain: "applinks:#{associated_domain}")
+
+    puts "Updating settings related to +Ionic Deeplinks Plugin+ in Info.plist"
+    update_ionic_deeplinks_info_plist(url_scheme: saas_config["meta"]["partnerID"])
+  end
+
+  desc "Produce profiles and certificates"
+  lane :keys do
+    team_id = ENV["APPLE_DEVELOPER_TEAM_ID"]
+    version_name = get_morda_package_json_version_name
+    xcodeproj_path = "ios/App/App.xcodeproj"
+    workspace_path = "ios/App/App.xcworkspace"
+
+    ios_keys_repo_uri = ENV["IOS_KEYS_REPOSITORY_URI"]
+    ios_keys_repo_destination_folder = ENV["IOS_KEYS_DESTINATION_FOLDER"]
+
+    puts "Parsing SaaS config"
+    saas_config = parse_saas_json_config
+
+    puts "Cloning iOS Keys repository #{ios_keys_repo_uri} into #{ios_keys_repo_destination_folder}"
+    clone_ios_keys_repository(
+      repository_uri: ios_keys_repo_uri,
+      repository_path: ios_keys_repo_destination_folder
+    )
+
+    puts "Creates Provision Profile, if doesn't exists, and enable associated_domains and push_notification capabilities"
+    extension_identifier_name = "Bitrise #{saas_config["partner"]}"
+    produce(
+        app_identifier: saas_config["cordova"]["iosAppId"],
+        app_name: extension_identifier_name,
+        team_id: team_id,
+        skip_itc: false, # dont skip the creation of the app on App Store Connect
+        enable_services: {
+            associated_domains: "on",
+            push_notification: "on",
+        }
+    )
+    puts "Ensure a valid push certificate is active, creating a new one if needed"
+    get_push_certificate(
+      app_identifier: saas_config["cordova"]["iosAppId"],
+      team_id: team_id,
+      output_path: "#{ios_keys_repo_destination_folder}/push-certificates",
+      new_profile: proc do |profile_path| # called when a new profile was generated
+        # We can insert code here to upload the PEM file to the server
+        puts "The profile path is #{profile_path}"
+      end
+    )
+
+    puts "Creates Provision Profile for OneSignalNotificationServiceExtension, if doesn't exists"
+    onesignal_extension_identifier_name = "Bitrise #{saas_config["partner"]} OneSignalNotificationServiceExtension"
+    produce(
+        app_identifier: "#{saas_config["cordova"]["iosAppId"]}.OneSignalNotificationServiceExtension",
+        app_name: onesignal_extension_identifier_name,
+        team_id: team_id,
+        skip_itc: true, # skip the creation of the app on App Store Connect
+        enable_services: {
+            push_notification: "on",
+        }
+    )
+
+    puts "Get io.carbus.app.{app_id} and io.carbus.app.{app_id}.OneSignalNotificationServiceExtension certificates and profiles using sigh"
+    get_certificates(
+      team_id: team_id,
+      output_path: "#{ios_keys_repo_destination_folder}/certs"
+    )
+    get_provisioning_profile(
+      team_id: team_id,
+      app_identifier: saas_config["cordova"]["iosAppId"],
+      output_path: "#{ios_keys_repo_destination_folder}/profiles",
+    )
+    get_provisioning_profile(
+      team_id: team_id,
+      app_identifier: "#{saas_config["cordova"]["iosAppId"]}.OneSignalNotificationServiceExtension",
+      output_path: "#{ios_keys_repo_destination_folder}/profiles",
+    )
+
+    puts "Committing and pushing generated profiles and certificates to remote iOS Keys repository #{ios_keys_repo_uri}"
+    push_keys_to_ios_keys_repository(
+      repository_uri: ios_keys_repo_uri,
+      repository_path: ios_keys_repo_destination_folder,
+      saas_partner_id: saas_config["partner"]
+    )
+  end
+
+  desc "Build iOS release version"
+  lane :production do
+    team_id = ENV["APPLE_DEVELOPER_TEAM_ID"]
+    version_name = get_morda_package_json_version_name
+    xcodeproj_path = "ios/App/App.xcodeproj"
+    workspace_path = "ios/App/App.xcworkspace"
+
+    puts "Parsing SaaS config"
+    saas_config = parse_saas_json_config
+
+    puts "Disable automatic code signing"
+    update_code_signing_settings(
+      use_automatic_signing: false,
+      path: xcodeproj_path,
+      team_id: team_id
+    )
+
+    update_project_provisioning(
+      xcodeproj: xcodeproj_path,
+      target_filter: "App",
+      profile: "./ios-keys/profiles/AppStore_#{saas_config["cordova"]["iosAppId"]}.mobileprovision",
+      build_configuration: "Release",
+      code_signing_identity: "iPhone Distribution"
+    )
+
+    update_project_provisioning(
+      xcodeproj: xcodeproj_path,
+      target_filter: "OneSignalNotificationServiceExtension",
+      profile: "./ios-keys/profiles/AppStore_#{saas_config["cordova"]["iosAppId"]}.OneSignalNotificationServiceExtension.mobileprovision",
+      build_configuration: "Release",
+      code_signing_identity: "iPhone Distribution"
+    )
+
+    puts "Build iOS release version"
+    build_app(
+      scheme: "App",
+      workspace: workspace_path,
+      skip_codesigning: false,
+      export_team_id: team_id,
+      configuration: "Release",
+      clean: true,
+      output_directory: "./artifacts",
+      codesigning_identity: "iPhone Distribution",
+      xcargs: "-allowProvisioningUpdates", # Automatically manage signing Xcode checkbox
+      disable_xcpretty: false # Set to true for detailed logs
+    )
+
+    if ENV['UPLOAD_TO_TESTFLIGHT'] == "true"
+      puts "Uploading to TestFlight..."
+      upload_to_testflight(
+        team_id: team_id,
+        app_identifier: saas_config["cordova"]["iosAppId"],
+        skip_waiting_for_build_processing: true,
+        notify_external_testers: true,
+      )
+    else
+      puts "Skip uploading to TestFlight. Set UPLOAD_TO_TESTFLIGHT environment to true for enabling this step."
+    end
+  end
+end

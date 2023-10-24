@@ -1,0 +1,13 @@
+import React, {FC} from 'react';
+import {block} from 'nano-bem';
+import css from './<%= name %>.styl';
+
+const b = block('<%= name %>', css);
+
+export const <%= name %>: FC<{}> = ({}) => {
+    return (
+        <div className={b()}>
+
+        </div>
+    )
+}

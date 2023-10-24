@@ -1,0 +1,36 @@
+{
+  "name": "cordova-plugin-appcenter-shared",
+  "version": "0.5.1",
+  "description": "Provides Microsoft Azure App Center shared functionality for Cordova",
+  "license": "MIT",
+  "author": "Microsoft Corporation",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Microsoft/appcenter-sdk-cordova.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Microsoft/appcenter-sdk-cordova/issues"
+  },
+  "homepage": "https://github.com/Microsoft/appcenter-sdk-cordova/blob/master/README.md",
+  "cordova": {
+    "id": "cordova-plugin-appcenter-shared",
+    "platforms": [
+      "android",
+      "ios"
+    ]
+  },
+  "keywords": [
+    "microsoft",
+    "azure",
+    "app center",
+    "crashes",
+    "ecosystem:cordova",
+    "cordova-android",
+    "cordova-ios"
+  ],
+  "types": "./types/index.d.ts"
+
+,"_resolved": "https://registry.npmjs.org/cordova-plugin-appcenter-shared/-/cordova-plugin-appcenter-shared-0.5.1.tgz"
+,"_integrity": "sha512-Kh7Nv6U+oa8rg6lMep8NJIMmmNYFN1aZyF68u9GBI5SG8MeMB2kkPuFc6aSq9KeuV5BTSGyW80xmQX1Mag/n5g=="
+,"_from": "cordova-plugin-appcenter-shared@0.5.1"
+}

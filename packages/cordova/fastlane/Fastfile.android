@@ -1,0 +1,50 @@
+platform :android do
+    desc "Deploy ios app on the appstore"
+
+    lane :build do |options|
+      cordova(
+          platform: 'android',
+          release: (options[:production] ? true : false),
+          package_type: (options[:production] ? 'bundle' : 'apk'),
+          cordova_prepare: false
+      )
+    end
+
+    lane :appcenter do |options|
+      if options[:testing]
+          app_name = 'AtlasBus-Testing-Android'
+      end
+      if options[:production]
+          app_name = 'AtlasBus-Android'
+      end
+      appcenter_upload(
+          app_name: app_name,
+          file: options[:file],
+      )
+      codepush(app_name: app_name)
+    end
+
+    lane :codepush do |options|
+      Dir.chdir("..") do
+          sh(
+              "npx", "appcenter-cli", "codepush",
+              "release-cordova", "--disable-duplicate-release-error",
+              "-d", "Staging",
+              "-a", "Atlas-Bus/#{options[:app_name]}"
+          )
+      end
+    end
+
+    lane :deploy do
+        upload_to_play_store(
+            release_status: "completed",
+            track: "internal",
+            skip_upload_metadata: true,
+            skip_upload_changelogs: true,
+            skip_upload_images: true,
+            skip_upload_screenshots: true,
+            aab: "platforms/android/app/build/outputs/bundle/release/app.aab",
+            package_name: "ru.atlasbus.app"
+        )
+    end
+  end

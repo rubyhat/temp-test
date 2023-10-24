@@ -1,0 +1,59 @@
+platform :ios do
+  desc "Deploy ios app on the appstore"
+
+  lane :build do |options|
+    match(
+        type: (options[:production] ? 'appstore' : 'development'),
+        readonly: true
+    )
+    cordova(
+        platform: 'ios',
+        release: (options[:production] ? true : false),
+        type: (options[:production] ? 'appstore' : 'development'),
+        team_id: "6PAQJWJ9D2",
+        cordova_prepare: false
+    )
+  end
+
+  lane :appcenter do |options|
+    if options[:testing]
+        app_name = 'AtlasBus-Testing-iOS'
+    end
+    if options[:production]
+        app_name = 'AtlasBus-iOS'
+    end
+    appcenter_fetch_devices(
+        app_name: app_name
+    )
+    appcenter_upload(
+        app_name: app_name,
+        file: 'platforms/ios/build/device/Atlas.ipa',
+        dsym: 'platforms/ios/build/device/Atlas.app.dSYM',
+    )
+    codepush(app_name: app_name)
+  end
+
+  lane :codepush do |options|
+    Dir.chdir("..") do
+        sh(
+            "npx", "appcenter-cli", "codepush",
+            "release-cordova", "--disable-duplicate-release-error",
+            "-d", "Staging",
+            "-a", "Atlas-Bus/#{options[:app_name]}"
+        )
+    end
+  end
+
+  lane :deploy do
+    deliver(
+        submit_for_review: false,
+        automatic_release: false,
+        force: true, # Skip HTMl report verification
+        skip_metadata: true,
+        skip_screenshots: true,
+        ipa: "platforms/ios/build/device/Atlas.ipa",
+        skip_app_version_update: true
+      )
+  end
+
+end

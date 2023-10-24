@@ -1,0 +1,11 @@
+app_identifier "atlas.bus.tickets" # The bundle identifier of your app
+
+for_platform :ios do
+    team_id '6PAQJWJ9D2'
+    for_lane :testing do
+        app_identifier 'atlas.bus.tickets.testing'
+    end
+    for_lane :production do
+        app_identifier 'atlas.bus.tickets'
+    end
+end

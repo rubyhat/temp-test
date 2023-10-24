@@ -1,0 +1,78 @@
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  annotations:
+    cert-manager.io/cluster-issuer: production-letsencrypt
+    kubernetes.io/tls-acme: "true"
+    kubernetes.io/ingress.class: nginx
+    nginx.ingress.kubernetes.io/use-regex: "true"
+  name: morda-ingress
+  namespace: morda-testing
+spec:
+  rules:
+    - host: testing.www.atlasbus.ru
+      http: &api_backend
+        paths:
+          - path: /
+            pathType: ImplementationSpecific
+            backend:
+              service:
+                name: frontend
+                port:
+                  number: 8080
+          - path: /admin.*
+            pathType: Prefix
+            backend:
+              service:
+                name: morda-admin
+                port:
+                  number: 8080
+          - path: /api/.*
+            pathType: Prefix
+            backend:
+              service:
+                name: morda-api
+                port:
+                  number: 5000
+          - path: /o/.*
+            pathType: Prefix
+            backend:
+              service:
+                name: morda-api
+                port:
+                  number: 5000
+    - host: app.testing.www.atlasbus.ru
+      http:
+        <<: *api_backend
+    - host: testing.www.atlasbus.by
+      http:
+        <<: *api_backend
+    - host: dev.atlasbus.pl
+      http:
+        <<: *api_backend
+    - host: dev.atlasbus.kz
+      http:
+        <<: *api_backend
+    - host: dev.atlasbus.tj
+      http:
+        <<: *api_backend
+    - host: dev.atlasbus.by
+      http:
+        <<: *api_backend
+    - host: dev.atlasbus.ru
+      http:
+        <<: *api_backend
+    - host: dev.atlasbus.uz
+      http:
+        <<: *api_backend
+  tls:
+    - hosts:
+        - app.testing.www.atlasbus.ru
+        - testing.www.atlasbus.ru
+        - dev.atlasbus.pl
+        - dev.atlasbus.ru
+        - dev.atlasbus.by
+        - dev.atlasbus.kz
+        - dev.atlasbus.tj
+        - dev.atlasbus.uz
+      secretName: morda-testing-tls

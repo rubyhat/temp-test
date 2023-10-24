@@ -1,0 +1,1402 @@
+[
+    {
+        "ident": "359647090156287",
+        "latitude": 53.671777,
+        "longitude": 23.8033,
+        "timestamp": "2020-03-19 00:00:01+00",
+        "speed": 21,
+        "direction": 243
+    },
+    {
+        "ident": "359647090156287",
+        "latitude": 53.671702,
+        "longitude": 23.80319,
+        "timestamp": "2020-03-19 00:00:03+00",
+        "speed": 22,
+        "direction": 212
+    },
+    {
+        "ident": "359647090156287",
+        "latitude": 53.671591,
+        "longitude": 23.803137,
+        "timestamp": "2020-03-19 00:00:05+00",
+        "speed": 25,
+        "direction": 190
+    },
+    {
+        "ident": "359647090156287",
+        "latitude": 53.670617,
+        "longitude": 23.802742,
+        "timestamp": "2020-03-19 00:00:15+00",
+        "speed": 52,
+        "direction": 193
+    },
+    {
+        "ident": "359647090156287",
+        "latitude": 53.669111,
+        "longitude": 23.802148,
+        "timestamp": "2020-03-19 00:00:25+00",
+        "speed": 64,
+        "direction": 193
+    },
+    {
+        "ident": "359647090156287",
+        "latitude": 53.667653,
+        "longitude": 23.801522,
+        "timestamp": "2020-03-19 00:00:35+00",
+        "speed": 57,
+        "direction": 194
+    },
+    {
+        "ident": "359647090156287",
+        "latitude": 53.666266,
+        "longitude": 23.800957,
+        "timestamp": "2020-03-19 00:00:45+00",
+        "speed": 55,
+        "direction": 193
+    },
+    {
+        "ident": "359647090156287",
+        "latitude": 53.664875,
+        "longitude": 23.800504,
+        "timestamp": "2020-03-19 00:00:55+00",
+        "speed": 63,
+        "direction": 194
+    },
+    {
+        "ident": "359647090156287",
+        "latitude": 53.663711,
+        "longitude": 23.799955,
+        "timestamp": "2020-03-19 00:01:05+00",
+        "speed": 36,
+        "direction": 213
+    },
+    {
+        "ident": "359647090156287",
+        "latitude": 53.663617,
+        "longitude": 23.79974,
+        "timestamp": "2020-03-19 00:01:07+00",
+        "speed": 31,
+        "direction": 235
+    },
+    {
+        "ident": "359647090156287",
+        "latitude": 53.663564,
+        "longitude": 23.7993,
+        "timestamp": "2020-03-19 00:01:10+00",
+        "speed": 41,
+        "direction": 256
+    },
+    {
+        "ident": "359647090156287",
+        "latitude": 53.663373,
+        "longitude": 23.797351,
+        "timestamp": "2020-03-19 00:01:20+00",
+        "speed": 34,
+        "direction": 263
+    },
+    {
+        "ident": "359647090156287",
+        "latitude": 53.663466,
+        "longitude": 23.795897,
+        "timestamp": "2020-03-19 00:01:28+00",
+        "speed": 53,
+        "direction": 283
+    },
+    {
+        "ident": "359647090156287",
+        "latitude": 53.663795,
+        "longitude": 23.793662,
+        "timestamp": "2020-03-19 00:01:38+00",
+        "speed": 44,
+        "direction": 283
+    },
+    {
+        "ident": "359647090156287",
+        "latitude": 53.663768,
+        "longitude": 23.793108,
+        "timestamp": "2020-03-19 00:01:42+00",
+        "speed": 25,
+        "direction": 243
+    },
+    {
+        "ident": "359647090156287",
+        "latitude": 53.663648,
+        "longitude": 23.793017,
+        "timestamp": "2020-03-19 00:01:44+00",
+        "speed": 26,
+        "direction": 202
+    },
+    {
+        "ident": "359647090156287",
+        "latitude": 53.662524,
+        "longitude": 23.792346,
+        "timestamp": "2020-03-19 00:01:54+00",
+        "speed": 51,
+        "direction": 202
+    },
+    {
+        "ident": "359647090156287",
+        "latitude": 53.661644,
+        "longitude": 23.791731,
+        "timestamp": "2020-03-19 00:02:17+00",
+        "speed": 0,
+        "direction": 201
+    },
+    {
+        "ident": "359647090156287",
+        "latitude": 53.661484,
+        "longitude": 23.791657,
+        "timestamp": "2020-03-19 00:02:54+00",
+        "speed": 20,
+        "direction": 195
+    },
+    {
+        "ident": "359647090156287",
+        "latitude": 53.66076,
+        "longitude": 23.791191,
+        "timestamp": "2020-03-19 00:03:04+00",
+        "speed": 36,
+        "direction": 205
+    },
+    {
+        "ident": "359647090156287",
+        "latitude": 53.659906,
+        "longitude": 23.790633,
+        "timestamp": "2020-03-19 00:03:14+00",
+        "speed": 39,
+        "direction": 201
+    },
+    {
+        "ident": "359647090156287",
+        "latitude": 53.659177,
+        "longitude": 23.790246,
+        "timestamp": "2020-03-19 00:03:23+00",
+        "speed": 21,
+        "direction": 168
+    },
+    {
+        "ident": "359647090156287",
+        "latitude": 53.659093,
+        "longitude": 23.790326,
+        "timestamp": "2020-03-19 00:03:25+00",
+        "speed": 23,
+        "direction": 143
+    },
+    {
+        "ident": "359647090156287",
+        "latitude": 53.658884,
+        "longitude": 23.790795,
+        "timestamp": "2020-03-19 00:04:07+00",
+        "speed": 0,
+        "direction": 125
+    },
+    {
+        "ident": "359647090156287",
+        "latitude": 53.658884,
+        "longitude": 23.790795,
+        "timestamp": "2020-03-19 00:08:38+00",
+        "speed": 0,
+        "direction": 125
+    },
+    {
+        "ident": "359647090156287",
+        "latitude": 53.658951,
+        "longitude": 23.790911,
+        "timestamp": "2020-03-19 00:12:31+00",
+        "speed": 0,
+        "direction": 22
+    },
+    {
+        "ident": "359647090156287",
+        "latitude": 53.658742,
+        "longitude": 23.790922,
+        "timestamp": "2020-03-19 00:13:48+00",
+        "speed": 15,
+        "direction": 202
+    },
+    {
+        "ident": "359647090156287",
+        "latitude": 53.658591,
+        "longitude": 23.790624,
+        "timestamp": "2020-03-19 00:13:55+00",
+        "speed": 16,
+        "direction": 281
+    },
+    {
+        "ident": "359647090156287",
+        "latitude": 53.65864,
+        "longitude": 23.790404,
+        "timestamp": "2020-03-19 00:13:58+00",
+        "speed": 21,
+        "direction": 301
+    },
+    {
+        "ident": "359647090156287",
+        "latitude": 53.65896,
+        "longitude": 23.790026,
+        "timestamp": "2020-03-19 00:14:08+00",
+        "speed": 16,
+        "direction": 14
+    },
+    {
+        "ident": "359647090156287",
+        "latitude": 53.659524,
+        "longitude": 23.790455,
+        "timestamp": "2020-03-19 00:14:18+00",
+        "speed": 31,
+        "direction": 21
+    },
+    {
+        "ident": "359647090156287",
+        "latitude": 53.660293,
+        "longitude": 23.791004,
+        "timestamp": "2020-03-19 00:14:28+00",
+        "speed": 30,
+        "direction": 19
+    },
+    {
+        "ident": "359647090156287",
+        "latitude": 53.660995,
+        "longitude": 23.791422,
+        "timestamp": "2020-03-19 00:14:38+00",
+        "speed": 30,
+        "direction": 22
+    },
+    {
+        "ident": "359647090156287",
+        "latitude": 53.66176,
+        "longitude": 23.791886,
+        "timestamp": "2020-03-19 00:14:48+00",
+        "speed": 33,
+        "direction": 20
+    },
+    {
+        "ident": "359647090156287",
+        "latitude": 53.662546,
+        "longitude": 23.792411,
+        "timestamp": "2020-03-19 00:14:58+00",
+        "speed": 33,
+        "direction": 23
+    },
+    {
+        "ident": "359647090156287",
+        "latitude": 53.663351,
+        "longitude": 23.792993,
+        "timestamp": "2020-03-19 00:15:08+00",
+        "speed": 35,
+        "direction": 23
+    },
+    {
+        "ident": "359647090156287",
+        "latitude": 53.663768,
+        "longitude": 23.793208,
+        "timestamp": "2020-03-19 00:15:14+00",
+        "speed": 19,
+        "direction": 351
+    },
+    {
+        "ident": "359647090156287",
+        "latitude": 53.663853,
+        "longitude": 23.793135,
+        "timestamp": "2020-03-19 00:15:16+00",
+        "speed": 19,
+        "direction": 325
+    },
+    {
+        "ident": "359647090156287",
+        "latitude": 53.663906,
+        "longitude": 23.793004,
+        "timestamp": "2020-03-19 00:15:18+00",
+        "speed": 19,
+        "direction": 299
+    },
+    {
+        "ident": "359647090156287",
+        "latitude": 53.664226,
+        "longitude": 23.791608,
+        "timestamp": "2020-03-19 00:15:28+00",
+        "speed": 52,
+        "direction": 292
+    },
+    {
+        "ident": "359647090156287",
+        "latitude": 53.664586,
+        "longitude": 23.789973,
+        "timestamp": "2020-03-19 00:15:38+00",
+        "speed": 21,
+        "direction": 255
+    },
+    {
+        "ident": "359647090156287",
+        "latitude": 53.664515,
+        "longitude": 23.789837,
+        "timestamp": "2020-03-19 00:15:40+00",
+        "speed": 19,
+        "direction": 216
+    },
+    {
+        "ident": "359647090156287",
+        "latitude": 53.663862,
+        "longitude": 23.78936,
+        "timestamp": "2020-03-19 00:15:50+00",
+        "speed": 37,
+        "direction": 202
+    },
+    {
+        "ident": "359647090156287",
+        "latitude": 53.6632,
+        "longitude": 23.788908,
+        "timestamp": "2020-03-19 00:15:59+00",
+        "speed": 17,
+        "direction": 231
+    },
+    {
+        "ident": "359647090156287",
+        "latitude": 53.663222,
+        "longitude": 23.788571,
+        "timestamp": "2020-03-19 00:16:25+00",
+        "speed": 0,
+        "direction": 283
+    },
+    {
+        "ident": "359647090156287",
+        "latitude": 53.663222,
+        "longitude": 23.788571,
+        "timestamp": "2020-03-19 00:20:56+00",
+        "speed": 0,
+        "direction": 283
+    },
+    {
+        "ident": "359647090156287",
+        "latitude": 53.663222,
+        "longitude": 23.788571,
+        "timestamp": "2020-03-19 00:22:24+00",
+        "speed": 0,
+        "direction": 283
+    },
+    {
+        "ident": "359647090156287",
+        "latitude": 53.663222,
+        "longitude": 23.788571,
+        "timestamp": "2020-03-19 00:27:05+00",
+        "speed": 0,
+        "direction": 283
+    },
+    {
+        "ident": "359647090156287",
+        "latitude": 53.663222,
+        "longitude": 23.788571,
+        "timestamp": "2020-03-19 04:25:41+00",
+        "speed": 0,
+        "direction": 283
+    },
+    {
+        "ident": "359647090156287",
+        "latitude": 53.664622,
+        "longitude": 23.789977,
+        "timestamp": "2020-03-19 04:27:51+00",
+        "speed": 13,
+        "direction": 68
+    },
+    {
+        "ident": "359647090156287",
+        "latitude": 53.664591,
+        "longitude": 23.790153,
+        "timestamp": "2020-03-19 04:27:54+00",
+        "speed": 17,
+        "direction": 120
+    },
+    {
+        "ident": "359647090156287",
+        "latitude": 53.664062,
+        "longitude": 23.791784,
+        "timestamp": "2020-03-19 04:28:04+00",
+        "speed": 60,
+        "direction": 111
+    },
+    {
+        "ident": "359647090156287",
+        "latitude": 53.663755,
+        "longitude": 23.79342,
+        "timestamp": "2020-03-19 04:28:14+00",
+        "speed": 36,
+        "direction": 103
+    },
+    {
+        "ident": "359647090156287",
+        "latitude": 53.663457,
+        "longitude": 23.795573,
+        "timestamp": "2020-03-19 04:28:24+00",
+        "speed": 54,
+        "direction": 103
+    },
+    {
+        "ident": "359647090156287",
+        "latitude": 53.663306,
+        "longitude": 23.797391,
+        "timestamp": "2020-03-19 04:28:34+00",
+        "speed": 21,
+        "direction": 81
+    },
+    {
+        "ident": "359647090156287",
+        "latitude": 53.663533,
+        "longitude": 23.798766,
+        "timestamp": "2020-03-19 04:28:44+00",
+        "speed": 44,
+        "direction": 77
+    },
+    {
+        "ident": "359647090156287",
+        "latitude": 53.663795,
+        "longitude": 23.800342,
+        "timestamp": "2020-03-19 04:29:04+00",
+        "speed": 29,
+        "direction": 80
+    },
+    {
+        "ident": "359647090156287",
+        "latitude": 53.663946,
+        "longitude": 23.801388,
+        "timestamp": "2020-03-19 04:29:14+00",
+        "speed": 21,
+        "direction": 74
+    },
+    {
+        "ident": "359647090156287",
+        "latitude": 53.664168,
+        "longitude": 23.802673,
+        "timestamp": "2020-03-19 04:29:24+00",
+        "speed": 47,
+        "direction": 75
+    },
+    {
+        "ident": "359647090156287",
+        "latitude": 53.66448,
+        "longitude": 23.804971,
+        "timestamp": "2020-03-19 04:29:34+00",
+        "speed": 56,
+        "direction": 75
+    },
+    {
+        "ident": "359647090156287",
+        "latitude": 53.664804,
+        "longitude": 23.807124,
+        "timestamp": "2020-03-19 04:29:44+00",
+        "speed": 51,
+        "direction": 75
+    },
+    {
+        "ident": "359647090156287",
+        "latitude": 53.665031,
+        "longitude": 23.808562,
+        "timestamp": "2020-03-19 04:29:54+00",
+        "speed": 43,
+        "direction": 74
+    },
+    {
+        "ident": "359647090156287",
+        "latitude": 53.665395,
+        "longitude": 23.810831,
+        "timestamp": "2020-03-19 04:30:04+00",
+        "speed": 63,
+        "direction": 76
+    },
+    {
+        "ident": "359647090156287",
+        "latitude": 53.665826,
+        "longitude": 23.81348,
+        "timestamp": "2020-03-19 04:30:14+00",
+        "speed": 60,
+        "direction": 76
+    },
+    {
+        "ident": "359647090156287",
+        "latitude": 53.666,
+        "longitude": 23.81484,
+        "timestamp": "2020-03-19 04:30:24+00",
+        "speed": 27,
+        "direction": 87
+    },
+    {
+        "ident": "359647090156287",
+        "latitude": 53.66596,
+        "longitude": 23.815222,
+        "timestamp": "2020-03-19 04:30:27+00",
+        "speed": 33,
+        "direction": 107
+    },
+    {
+        "ident": "359647090156287",
+        "latitude": 53.665542,
+        "longitude": 23.816911,
+        "timestamp": "2020-03-19 04:30:37+00",
+        "speed": 43,
+        "direction": 111
+    },
+    {
+        "ident": "359647090156287",
+        "latitude": 53.665128,
+        "longitude": 23.818657,
+        "timestamp": "2020-03-19 04:30:47+00",
+        "speed": 39,
+        "direction": 110
+    },
+    {
+        "ident": "359647090156287",
+        "latitude": 53.665097,
+        "longitude": 23.819482,
+        "timestamp": "2020-03-19 04:31:51+00",
+        "speed": 15,
+        "direction": 35
+    },
+    {
+        "ident": "359647090156287",
+        "latitude": 53.666,
+        "longitude": 23.82018,
+        "timestamp": "2020-03-19 04:32:01+00",
+        "speed": 58,
+        "direction": 22
+    },
+    {
+        "ident": "359647090156287",
+        "latitude": 53.667431,
+        "longitude": 23.821346,
+        "timestamp": "2020-03-19 04:32:11+00",
+        "speed": 57,
+        "direction": 25
+    },
+    {
+        "ident": "359647090156287",
+        "latitude": 53.668084,
+        "longitude": 23.821768,
+        "timestamp": "2020-03-19 04:32:38+00",
+        "speed": 0,
+        "direction": 27
+    },
+    {
+        "ident": "359647090156287",
+        "latitude": 53.668213,
+        "longitude": 23.821968,
+        "timestamp": "2020-03-19 04:32:51+00",
+        "speed": 8,
+        "direction": 49
+    },
+    {
+        "ident": "359647090156287",
+        "latitude": 53.668311,
+        "longitude": 23.822297,
+        "timestamp": "2020-03-19 04:33:11+00",
+        "speed": 19,
+        "direction": 59
+    },
+    {
+        "ident": "359647090156287",
+        "latitude": 53.668497,
+        "longitude": 23.822742,
+        "timestamp": "2020-03-19 04:33:16+00",
+        "speed": 31,
+        "direction": 38
+    },
+    {
+        "ident": "359647090156287",
+        "latitude": 53.668657,
+        "longitude": 23.822868,
+        "timestamp": "2020-03-19 04:33:18+00",
+        "speed": 36,
+        "direction": 18
+    },
+    {
+        "ident": "359647090156287",
+        "latitude": 53.669728,
+        "longitude": 23.823397,
+        "timestamp": "2020-03-19 04:33:28+00",
+        "speed": 45,
+        "direction": 33
+    },
+    {
+        "ident": "359647090156287",
+        "latitude": 53.670604,
+        "longitude": 23.824362,
+        "timestamp": "2020-03-19 04:33:38+00",
+        "speed": 34,
+        "direction": 35
+    },
+    {
+        "ident": "359647090156287",
+        "latitude": 53.671524,
+        "longitude": 23.825544,
+        "timestamp": "2020-03-19 04:33:48+00",
+        "speed": 51,
+        "direction": 37
+    },
+    {
+        "ident": "359647090156287",
+        "latitude": 53.672533,
+        "longitude": 23.826771,
+        "timestamp": "2020-03-19 04:33:58+00",
+        "speed": 48,
+        "direction": 36
+    },
+    {
+        "ident": "359647090156287",
+        "latitude": 53.673453,
+        "longitude": 23.827908,
+        "timestamp": "2020-03-19 04:34:08+00",
+        "speed": 52,
+        "direction": 36
+    },
+    {
+        "ident": "359647090156287",
+        "latitude": 53.674577,
+        "longitude": 23.829044,
+        "timestamp": "2020-03-19 04:34:18+00",
+        "speed": 40,
+        "direction": 12
+    },
+    {
+        "ident": "359647090156287",
+        "latitude": 53.675115,
+        "longitude": 23.829091,
+        "timestamp": "2020-03-19 04:34:28+00",
+        "speed": 15,
+        "direction": 0
+    },
+    {
+        "ident": "359647090156287",
+        "latitude": 53.675551,
+        "longitude": 23.829166,
+        "timestamp": "2020-03-19 04:34:37+00",
+        "speed": 22,
+        "direction": 32
+    },
+    {
+        "ident": "359647090156287",
+        "latitude": 53.675608,
+        "longitude": 23.829306,
+        "timestamp": "2020-03-19 04:34:39+00",
+        "speed": 19,
+        "direction": 74
+    },
+    {
+        "ident": "359647090156287",
+        "latitude": 53.6756,
+        "longitude": 23.829466,
+        "timestamp": "2020-03-19 04:34:41+00",
+        "speed": 20,
+        "direction": 100
+    },
+    {
+        "ident": "359647090156287",
+        "latitude": 53.675315,
+        "longitude": 23.830684,
+        "timestamp": "2020-03-19 04:34:51+00",
+        "speed": 42,
+        "direction": 114
+    },
+    {
+        "ident": "359647090156287",
+        "latitude": 53.675097,
+        "longitude": 23.831442,
+        "timestamp": "2020-03-19 04:35:01+00",
+        "speed": 8,
+        "direction": 114
+    },
+    {
+        "ident": "359647090156287",
+        "latitude": 53.67504,
+        "longitude": 23.832146,
+        "timestamp": "2020-03-19 04:35:29+00",
+        "speed": 0,
+        "direction": 29
+    },
+    {
+        "ident": "359647090156287",
+        "latitude": 53.675155,
+        "longitude": 23.832226,
+        "timestamp": "2020-03-19 04:35:41+00",
+        "speed": 17,
+        "direction": 27
+    },
+    {
+        "ident": "359647090156287",
+        "latitude": 53.676004,
+        "longitude": 23.832906,
+        "timestamp": "2020-03-19 04:35:51+00",
+        "speed": 34,
+        "direction": 23
+    },
+    {
+        "ident": "359647090156287",
+        "latitude": 53.676146,
+        "longitude": 23.833073,
+        "timestamp": "2020-03-19 04:35:54+00",
+        "speed": 16,
+        "direction": 73
+    },
+    {
+        "ident": "359647090156287",
+        "latitude": 53.676133,
+        "longitude": 23.833226,
+        "timestamp": "2020-03-19 04:35:56+00",
+        "speed": 16,
+        "direction": 101
+    },
+    {
+        "ident": "359647090156287",
+        "latitude": 53.675782,
+        "longitude": 23.834475,
+        "timestamp": "2020-03-19 04:36:06+00",
+        "speed": 36,
+        "direction": 115
+    },
+    {
+        "ident": "359647090156287",
+        "latitude": 53.675306,
+        "longitude": 23.836124,
+        "timestamp": "2020-03-19 04:36:16+00",
+        "speed": 51,
+        "direction": 115
+    },
+    {
+        "ident": "359647090156287",
+        "latitude": 53.674795,
+        "longitude": 23.838113,
+        "timestamp": "2020-03-19 04:36:26+00",
+        "speed": 35,
+        "direction": 108
+    },
+    {
+        "ident": "359647090156287",
+        "latitude": 53.674791,
+        "longitude": 23.83838,
+        "timestamp": "2020-03-19 04:36:28+00",
+        "speed": 29,
+        "direction": 88
+    },
+    {
+        "ident": "359647090156287",
+        "latitude": 53.674875,
+        "longitude": 23.838631,
+        "timestamp": "2020-03-19 04:36:30+00",
+        "speed": 32,
+        "direction": 56
+    },
+    {
+        "ident": "359647090156287",
+        "latitude": 53.675164,
+        "longitude": 23.838971,
+        "timestamp": "2020-03-19 04:36:33+00",
+        "speed": 53,
+        "direction": 35
+    },
+    {
+        "ident": "359647090156287",
+        "latitude": 53.676195,
+        "longitude": 23.839851,
+        "timestamp": "2020-03-19 04:36:42+00",
+        "speed": 25,
+        "direction": 6
+    },
+    {
+        "ident": "359647090156287",
+        "latitude": 53.676311,
+        "longitude": 23.839793,
+        "timestamp": "2020-03-19 04:36:44+00",
+        "speed": 21,
+        "direction": 322
+    },
+    {
+        "ident": "359647090156287",
+        "latitude": 53.676391,
+        "longitude": 23.8396,
+        "timestamp": "2020-03-19 04:36:46+00",
+        "speed": 27,
+        "direction": 301
+    },
+    {
+        "ident": "359647090156287",
+        "latitude": 53.676515,
+        "longitude": 23.8394,
+        "timestamp": "2020-03-19 04:36:48+00",
+        "speed": 29,
+        "direction": 332
+    },
+    {
+        "ident": "359647090156287",
+        "latitude": 53.676648,
+        "longitude": 23.839344,
+        "timestamp": "2020-03-19 04:36:50+00",
+        "speed": 23,
+        "direction": 0
+    },
+    {
+        "ident": "359647090156287",
+        "latitude": 53.676773,
+        "longitude": 23.839517,
+        "timestamp": "2020-03-19 04:37:20+00",
+        "speed": 15,
+        "direction": 50
+    },
+    {
+        "ident": "359647090156287",
+        "latitude": 53.676813,
+        "longitude": 23.839657,
+        "timestamp": "2020-03-19 04:37:22+00",
+        "speed": 22,
+        "direction": 72
+    },
+    {
+        "ident": "359647090156287",
+        "latitude": 53.676822,
+        "longitude": 23.840182,
+        "timestamp": "2020-03-19 04:37:26+00",
+        "speed": 34,
+        "direction": 93
+    },
+    {
+        "ident": "359647090156287",
+        "latitude": 53.676724,
+        "longitude": 23.841304,
+        "timestamp": "2020-03-19 04:37:36+00",
+        "speed": 14,
+        "direction": 94
+    },
+    {
+        "ident": "359647090156287",
+        "latitude": 53.676724,
+        "longitude": 23.841455,
+        "timestamp": "2020-03-19 04:38:03+00",
+        "speed": 0,
+        "direction": 93
+    },
+    {
+        "ident": "359647090156287",
+        "latitude": 53.676555,
+        "longitude": 23.84272,
+        "timestamp": "2020-03-19 04:38:16+00",
+        "speed": 52,
+        "direction": 104
+    },
+    {
+        "ident": "359647090156287",
+        "latitude": 53.676195,
+        "longitude": 23.845226,
+        "timestamp": "2020-03-19 04:38:26+00",
+        "speed": 58,
+        "direction": 102
+    },
+    {
+        "ident": "359647090156287",
+        "latitude": 53.675822,
+        "longitude": 23.847648,
+        "timestamp": "2020-03-19 04:38:36+00",
+        "speed": 63,
+        "direction": 103
+    },
+    {
+        "ident": "359647090156287",
+        "latitude": 53.67548,
+        "longitude": 23.849982,
+        "timestamp": "2020-03-19 04:38:46+00",
+        "speed": 48,
+        "direction": 101
+    },
+    {
+        "ident": "359647090156287",
+        "latitude": 53.675333,
+        "longitude": 23.851317,
+        "timestamp": "2020-03-19 04:38:56+00",
+        "speed": 27,
+        "direction": 102
+    },
+    {
+        "ident": "359647090156287",
+        "latitude": 53.675137,
+        "longitude": 23.853026,
+        "timestamp": "2020-03-19 04:39:06+00",
+        "speed": 61,
+        "direction": 101
+    },
+    {
+        "ident": "359647090156287",
+        "latitude": 53.674782,
+        "longitude": 23.856053,
+        "timestamp": "2020-03-19 04:39:16+00",
+        "speed": 60,
+        "direction": 99
+    },
+    {
+        "ident": "359647090156287",
+        "latitude": 53.674582,
+        "longitude": 23.858004,
+        "timestamp": "2020-03-19 04:39:26+00",
+        "speed": 42,
+        "direction": 100
+    },
+    {
+        "ident": "359647090156287",
+        "latitude": 53.674422,
+        "longitude": 23.859271,
+        "timestamp": "2020-03-19 04:39:36+00",
+        "speed": 21,
+        "direction": 100
+    },
+    {
+        "ident": "359647090156287",
+        "latitude": 53.674386,
+        "longitude": 23.859773,
+        "timestamp": "2020-03-19 04:39:46+00",
+        "speed": 13,
+        "direction": 101
+    },
+    {
+        "ident": "359647090156287",
+        "latitude": 53.674195,
+        "longitude": 23.860542,
+        "timestamp": "2020-03-19 04:40:38+00",
+        "speed": 15,
+        "direction": 137
+    },
+    {
+        "ident": "359647090156287",
+        "latitude": 53.673902,
+        "longitude": 23.861108,
+        "timestamp": "2020-03-19 04:40:44+00",
+        "speed": 32,
+        "direction": 110
+    },
+    {
+        "ident": "359647090156287",
+        "latitude": 53.673893,
+        "longitude": 23.8614,
+        "timestamp": "2020-03-19 04:40:46+00",
+        "speed": 33,
+        "direction": 79
+    },
+    {
+        "ident": "359647090156287",
+        "latitude": 53.674031,
+        "longitude": 23.862926,
+        "timestamp": "2020-03-19 04:40:54+00",
+        "speed": 56,
+        "direction": 102
+    },
+    {
+        "ident": "359647090156287",
+        "latitude": 53.673826,
+        "longitude": 23.864953,
+        "timestamp": "2020-03-19 04:41:04+00",
+        "speed": 42,
+        "direction": 100
+    },
+    {
+        "ident": "359647090156287",
+        "latitude": 53.673591,
+        "longitude": 23.866817,
+        "timestamp": "2020-03-19 04:41:14+00",
+        "speed": 56,
+        "direction": 102
+    },
+    {
+        "ident": "359647090156287",
+        "latitude": 53.673346,
+        "longitude": 23.869226,
+        "timestamp": "2020-03-19 04:41:24+00",
+        "speed": 62,
+        "direction": 100
+    },
+    {
+        "ident": "359647090156287",
+        "latitude": 53.67312,
+        "longitude": 23.871553,
+        "timestamp": "2020-03-19 04:41:34+00",
+        "speed": 31,
+        "direction": 97
+    },
+    {
+        "ident": "359647090156287",
+        "latitude": 53.673137,
+        "longitude": 23.871744,
+        "timestamp": "2020-03-19 04:41:36+00",
+        "speed": 19,
+        "direction": 66
+    },
+    {
+        "ident": "359647090156287",
+        "latitude": 53.673266,
+        "longitude": 23.871857,
+        "timestamp": "2020-03-19 04:41:40+00",
+        "speed": 16,
+        "direction": 355
+    },
+    {
+        "ident": "359647090156287",
+        "latitude": 53.673462,
+        "longitude": 23.871862,
+        "timestamp": "2020-03-19 04:41:44+00",
+        "speed": 16,
+        "direction": 28
+    },
+    {
+        "ident": "359647090156287",
+        "latitude": 53.673315,
+        "longitude": 23.872091,
+        "timestamp": "2020-03-19 04:41:54+00",
+        "speed": 13,
+        "direction": 137
+    },
+    {
+        "ident": "359647090156287",
+        "latitude": 53.673324,
+        "longitude": 23.872217,
+        "timestamp": "2020-03-19 04:42:04+00",
+        "speed": 7,
+        "direction": 19
+    },
+    {
+        "ident": "359647090156287",
+        "latitude": 53.673475,
+        "longitude": 23.872148,
+        "timestamp": "2020-03-19 04:42:32+00",
+        "speed": 0,
+        "direction": 101
+    },
+    {
+        "ident": "359647090156287",
+        "latitude": 53.673475,
+        "longitude": 23.872148,
+        "timestamp": "2020-03-19 04:47:03+00",
+        "speed": 0,
+        "direction": 101
+    },
+    {
+        "ident": "359647090156287",
+        "latitude": 53.673475,
+        "longitude": 23.872148,
+        "timestamp": "2020-03-19 05:06:42+00",
+        "speed": 0,
+        "direction": 101
+    },
+    {
+        "ident": "359647090156287",
+        "latitude": 53.673617,
+        "longitude": 23.871857,
+        "timestamp": "2020-03-19 05:07:01+00",
+        "speed": 9,
+        "direction": 316
+    },
+    {
+        "ident": "359647090156287",
+        "latitude": 53.67372,
+        "longitude": 23.871895,
+        "timestamp": "2020-03-19 05:07:05+00",
+        "speed": 15,
+        "direction": 31
+    },
+    {
+        "ident": "359647090156287",
+        "latitude": 53.673844,
+        "longitude": 23.872008,
+        "timestamp": "2020-03-19 05:07:09+00",
+        "speed": 15,
+        "direction": 10
+    },
+    {
+        "ident": "359647090156287",
+        "latitude": 53.673964,
+        "longitude": 23.872271,
+        "timestamp": "2020-03-19 05:07:39+00",
+        "speed": 10,
+        "direction": 107
+    },
+    {
+        "ident": "359647090156287",
+        "latitude": 53.673915,
+        "longitude": 23.872124,
+        "timestamp": "2020-03-19 05:09:10+00",
+        "speed": 0,
+        "direction": 342
+    },
+    {
+        "ident": "359647090156287",
+        "latitude": 53.673755,
+        "longitude": 23.872331,
+        "timestamp": "2020-03-19 05:13:41+00",
+        "speed": 0,
+        "direction": 84
+    },
+    {
+        "ident": "359647090156287",
+        "latitude": 53.673893,
+        "longitude": 23.872101,
+        "timestamp": "2020-03-19 05:34:05+00",
+        "speed": 0,
+        "direction": 123
+    },
+    {
+        "ident": "359647090156287",
+        "latitude": 53.673906,
+        "longitude": 23.872208,
+        "timestamp": "2020-03-19 05:42:15+00",
+        "speed": 0,
+        "direction": 77
+    },
+    {
+        "ident": "359647090156287",
+        "latitude": 53.673804,
+        "longitude": 23.872124,
+        "timestamp": "2020-03-19 05:47:23+00",
+        "speed": 0,
+        "direction": 37
+    },
+    {
+        "ident": "359647090156287",
+        "latitude": 53.673915,
+        "longitude": 23.872271,
+        "timestamp": "2020-03-19 05:55:13+00",
+        "speed": 0,
+        "direction": 359
+    },
+    {
+        "ident": "359647090156287",
+        "latitude": 53.673902,
+        "longitude": 23.872248,
+        "timestamp": "2020-03-19 05:56:27+00",
+        "speed": 0,
+        "direction": 194
+    },
+    {
+        "ident": "359647090156287",
+        "latitude": 53.673804,
+        "longitude": 23.872293,
+        "timestamp": "2020-03-19 06:01:07+00",
+        "speed": 0,
+        "direction": 126
+    },
+    {
+        "ident": "359647090156287",
+        "latitude": 53.673684,
+        "longitude": 23.871944,
+        "timestamp": "2020-03-19 06:06:06+00",
+        "speed": 0,
+        "direction": 356
+    },
+    {
+        "ident": "359647090156287",
+        "latitude": 53.673684,
+        "longitude": 23.871944,
+        "timestamp": "2020-03-19 06:48:53+00",
+        "speed": 0,
+        "direction": 356
+    },
+    {
+        "ident": "359647090156287",
+        "latitude": 53.676368,
+        "longitude": 23.872253,
+        "timestamp": "2020-03-19 06:54:14+00",
+        "speed": 0,
+        "direction": 247
+    },
+    {
+        "ident": "359647090156287",
+        "latitude": 53.676368,
+        "longitude": 23.872253,
+        "timestamp": "2020-03-19 07:24:46+00",
+        "speed": 0,
+        "direction": 247
+    },
+    {
+        "ident": "359647090156287",
+        "latitude": 53.673657,
+        "longitude": 23.872286,
+        "timestamp": "2020-03-19 07:30:04+00",
+        "speed": 0,
+        "direction": 31
+    },
+    {
+        "ident": "359647090156287",
+        "latitude": 53.673715,
+        "longitude": 23.87226,
+        "timestamp": "2020-03-19 07:30:56+00",
+        "speed": 0,
+        "direction": 309
+    },
+    {
+        "ident": "359647090156287",
+        "latitude": 53.673706,
+        "longitude": 23.872217,
+        "timestamp": "2020-03-19 07:42:40+00",
+        "speed": 0,
+        "direction": 319
+    },
+    {
+        "ident": "359647090156287",
+        "latitude": 53.673777,
+        "longitude": 23.872166,
+        "timestamp": "2020-03-19 07:48:01+00",
+        "speed": 0,
+        "direction": 252
+    },
+    {
+        "ident": "359647090156287",
+        "latitude": 53.673875,
+        "longitude": 23.872217,
+        "timestamp": "2020-03-19 07:52:43+00",
+        "speed": 0,
+        "direction": 336
+    },
+    {
+        "ident": "359647090156287",
+        "latitude": 53.673746,
+        "longitude": 23.872073,
+        "timestamp": "2020-03-19 07:58:45+00",
+        "speed": 0,
+        "direction": 129
+    },
+    {
+        "ident": "359647090156287",
+        "latitude": 53.673742,
+        "longitude": 23.872208,
+        "timestamp": "2020-03-19 08:03:50+00",
+        "speed": 0,
+        "direction": 332
+    },
+    {
+        "ident": "359647090156287",
+        "latitude": 53.673755,
+        "longitude": 23.872208,
+        "timestamp": "2020-03-19 08:08:01+00",
+        "speed": 0,
+        "direction": 349
+    },
+    {
+        "ident": "359647090156287",
+        "latitude": 53.673662,
+        "longitude": 23.872175,
+        "timestamp": "2020-03-19 08:12:46+00",
+        "speed": 0,
+        "direction": 59
+    },
+    {
+        "ident": "359647090156287",
+        "latitude": 53.673662,
+        "longitude": 23.872175,
+        "timestamp": "2020-03-19 08:28:19+00",
+        "speed": 0,
+        "direction": 59
+    },
+    {
+        "ident": "359647090156287",
+        "latitude": 53.673688,
+        "longitude": 23.872086,
+        "timestamp": "2020-03-19 08:33:06+00",
+        "speed": 0,
+        "direction": 301
+    },
+    {
+        "ident": "359647090156287",
+        "latitude": 53.673786,
+        "longitude": 23.872113,
+        "timestamp": "2020-03-19 08:37:59+00",
+        "speed": 0,
+        "direction": 71
+    },
+    {
+        "ident": "359647090156287",
+        "latitude": 53.673742,
+        "longitude": 23.872044,
+        "timestamp": "2020-03-19 08:45:35+00",
+        "speed": 2,
+        "direction": 78
+    },
+    {
+        "ident": "359647090156287",
+        "latitude": 53.673742,
+        "longitude": 23.872053,
+        "timestamp": "2020-03-19 08:45:36+00",
+        "speed": 2,
+        "direction": 74
+    },
+    {
+        "ident": "359647090156287",
+        "latitude": 53.673662,
+        "longitude": 23.872217,
+        "timestamp": "2020-03-19 08:49:51+00",
+        "speed": 0,
+        "direction": 293
+    },
+    {
+        "ident": "359647090156287",
+        "latitude": 53.673662,
+        "longitude": 23.872217,
+        "timestamp": "2020-03-19 08:49:53+00",
+        "speed": 0,
+        "direction": 293
+    },
+    {
+        "ident": "359647090156287",
+        "latitude": 53.673822,
+        "longitude": 23.872155,
+        "timestamp": "2020-03-19 08:54:18+00",
+        "speed": 0,
+        "direction": 4
+    },
+    {
+        "ident": "359647090156287",
+        "latitude": 53.673355,
+        "longitude": 23.87216,
+        "timestamp": "2020-03-19 08:59:17+00",
+        "speed": 0,
+        "direction": 276
+    },
+    {
+        "ident": "359647090156287",
+        "latitude": 53.673355,
+        "longitude": 23.87216,
+        "timestamp": "2020-03-19 09:57:32+00",
+        "speed": 0,
+        "direction": 276
+    },
+    {
+        "ident": "359647090156287",
+        "latitude": 53.67396,
+        "longitude": 23.872424,
+        "timestamp": "2020-03-19 10:01:47+00",
+        "speed": 0,
+        "direction": 164
+    },
+    {
+        "ident": "359647090156287",
+        "latitude": 53.67396,
+        "longitude": 23.872424,
+        "timestamp": "2020-03-19 10:05:52+00",
+        "speed": 0,
+        "direction": 164
+    },
+    {
+        "ident": "359647090156287",
+        "latitude": 53.673862,
+        "longitude": 23.87248,
+        "timestamp": "2020-03-19 10:17:49+00",
+        "speed": 0,
+        "direction": 89
+    },
+    {
+        "ident": "359647090156287",
+        "latitude": 53.673933,
+        "longitude": 23.872475,
+        "timestamp": "2020-03-19 10:22:32+00",
+        "speed": 0,
+        "direction": 232
+    },
+    {
+        "ident": "359647090156287",
+        "latitude": 53.673933,
+        "longitude": 23.872475,
+        "timestamp": "2020-03-19 10:22:32+00",
+        "speed": 0,
+        "direction": 232
+    }
+]

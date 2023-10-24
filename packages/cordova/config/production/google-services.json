@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "548632237437",
+    "firebase_url": "https://atlas-morda.firebaseio.com",
+    "project_id": "atlas-morda",
+    "storage_bucket": "atlas-morda.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:548632237437:android:5ada48d4e26ca95ae0a814",
+        "android_client_info": {
+          "package_name": "ru.atlasbus.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "548632237437-mvjipb1nrklk369nuk6baat7bg16p54d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBlekjih38MlsHUJJJ1r-0kCchPfn1UOdc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "548632237437-mvjipb1nrklk369nuk6baat7bg16p54d.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "548632237437-e7fd2qpkkefoli79um3fgbnbkisf7c1t.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "atlas.bus.tickets"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
